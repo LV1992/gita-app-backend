@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/gita-backend-api/gita-backend-api.iml" filepath="$PROJECT_DIR$/gita-backend-api/gita-backend-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gita-backend-service/gita-backend-service.iml" filepath="$PROJECT_DIR$/gita-backend-service/gita-backend-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gita-backend-service/gita-backend-service-user/gita-backend-service-user.iml" filepath="$PROJECT_DIR$/gita-backend-service/gita-backend-service-user/gita-backend-service-user.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gita-backend-web/gita-backend-web.iml" filepath="$PROJECT_DIR$/gita-backend-web/gita-backend-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gitabackend.iml" filepath="$PROJECT_DIR$/gitabackend.iml" />
+    </modules>
+  </component>
+</project>
