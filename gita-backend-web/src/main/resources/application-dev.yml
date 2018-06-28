@@ -1,0 +1,6 @@
+dubbo:
+  protocol:
+    port: -1
+  registry:
+    registries[0]:
+      address: zk1.d.xqcx.com:2181,zk2.d.xqcx.com:2181
