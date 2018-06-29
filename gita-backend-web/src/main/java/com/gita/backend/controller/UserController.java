@@ -16,9 +16,7 @@ public class UserController {
     private UserService userService;
 
     @RequestMapping("logout")
-    public void logout(){
-        userService.logout();
-    }
+    public void logout(){userService.logout();}
 
 
 }
