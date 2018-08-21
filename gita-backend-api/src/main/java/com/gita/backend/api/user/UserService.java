@@ -5,5 +5,6 @@ package com.gita.backend.api.user;
  * @Description: 用户服务
  */
 public interface UserService {
+    void login();
     void logout();
 }

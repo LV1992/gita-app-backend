@@ -4,3 +4,6 @@ dubbo:
   registry:
     registries[0]:
       address: zk1.d.xqcx.com:2181,zk2.d.xqcx.com:2181
+xqdb-datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://db.dev.hdg.com:3306/erp?useSSL=false&useUnicode=true&characterEncoding=UTF8&allowMultiQueries=true&rewriteBatchedStatements=true&zeroDateTimeBehavior=convertToNull

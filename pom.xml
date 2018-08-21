@@ -12,6 +12,7 @@
         <module>gita-backend-api</module>
         <module>gita-backend-service</module>
         <module>gita-backend-web</module>
+        <module>gita-backend-common</module>
     </modules>
 
 
