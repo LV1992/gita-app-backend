@@ -1,6 +1,11 @@
 dubbo:
+  application:
+    id: dubbo-consumer
+    name: dubbo-consumer-name
   protocol:
+    id: dubbo
+    name: dubbo
     port: -1
   registry:
-    registries[0]:
-      address: zk1.d.xqcx.com:2181,zk2.d.xqcx.com:2181
+    id: dubbo-consumer
+    address: zookeeper://zk1.d.xqcx.com:2181?backup=zk2.d.xqcx.com:2181,zk3.d.xqcx.com:2181

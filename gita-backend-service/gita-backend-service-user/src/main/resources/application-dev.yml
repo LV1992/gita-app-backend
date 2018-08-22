@@ -1,9 +1,28 @@
+# dubbo doc http://dubbo.apache.org/zh-cn/
 dubbo:
+  application:
+    id: dubbo-provider
+    name: dubbo-provider-name
   protocol:
+    id: dubbo
+    name: dubbo
     port: -1
   registry:
-    registries[0]:
-      address: zk1.d.xqcx.com:2181,zk2.d.xqcx.com:2181
-xqdb-datasource:
+    id: dubbo-provider
+    address: zookeeper://zk1.d.xqcx.com:2181?backup=zk2.d.xqcx.com:2181,zk3.d.xqcx.com:2181
+  # Base packages to scan Dubbo Components (e.g., @Service, @Reference)
+  scan:
+    basePackages: com.gita.backend.service
+xqdb:
+  datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://db.dev.hdg.com:3306/erp?useSSL=false&useUnicode=true&characterEncoding=UTF8&allowMultiQueries=true&rewriteBatchedStatements=true&zeroDateTimeBehavior=convertToNull
+    url: jdbc:mysql://mysql.d.xqcx.com:3306/xqcx_db_trace?useUnicode=true&amp;characterEncoding=UTF8&amp;allowMultiQueries=true&amp;zeroDateTimeBehavior=convertToNull
+    username: xq
+    password: 123456
+    initialSize: 10
+    maxActive: 30
+    minIdle: 20
+    maxWait: 30000
+    timeBetweenEvictionRunsMillis: 10000
+    validationQuery: SELECT 'x'
+    testWhileIdle: true

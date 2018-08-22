@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("user")
 public class UserController {
 
-    @Reference
+    @Reference(registry = "dubbo-consumer")
     private UserService userService;
 
     @RequestMapping("logout")

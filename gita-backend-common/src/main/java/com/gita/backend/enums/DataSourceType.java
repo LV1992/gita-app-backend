@@ -10,7 +10,7 @@ import lombok.Getter;
 @AllArgsConstructor
 public enum DataSourceType {
 
-    XQDB_RW("xqdb_rw","xqdb读写库");
+    XQTRAVEL_RW("xqdb_rw","xqdb读写库");
 
     private String name;
     private String desc;
