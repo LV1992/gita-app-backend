@@ -11,14 +11,5 @@ public class GitaBackendServiceApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(GitaBackendServiceApplication.class, args);
 		log.info("GitaBackendServiceApplication start success!!!");
-//		synchronized (GitaBackendServiceApplication.class){
-//			while (true){
-//				try {
-//					GitaBackendServiceApplication.class.wait();
-//				}catch (InterruptedException e){
-//					e.printStackTrace();
-//				}
-//			}
-//		}
 	}
 }

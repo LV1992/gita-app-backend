@@ -2,22 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="98593d49-0714-43d2-863f-c0b5ac4314e1" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/gita-backend-service/gita-backend-service-user/src/main/java/com/gita/backend/configuration/MybatisConfiguration.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_dubbo_2_5_8.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_16.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_3_4_10.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_25.xml" afterPath="" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/gita-backend-api/src/main/java/com/gita/backend/dto/common/GeneralEnter.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/gita-backend-api/src/main/java/com/gita/backend/dto/common/PageEnter.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/gita-backend-api/src/main/java/com/gita/backend/dto/common/Response.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/gita-backend-api/src/main/java/com/gita/backend/dto/user/UserEnter.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/gita-backend-api/src/main/java/com/gita/backend/exceptions/BusinessException.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/gita-backend-service/gita-backend-service-user/src/main/java/com/gita/backend/dao/UserMapper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/gita-backend-service/gita-backend-service-user/src/main/resources/mapper/UserMapper.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/gita-backend-web/src/main/java/com/gita/backend/configuartion/GolbalException.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/gita-backend-common/src/main/java/com/gita/backend/enums/DataSourceType.java" afterPath="$PROJECT_DIR$/gita-backend-common/src/main/java/com/gita/backend/enums/DataSourceType.java" />
+      <change beforePath="$PROJECT_DIR$/gita-backend-api/src/main/java/com/gita/backend/api/user/UserService.java" afterPath="$PROJECT_DIR$/gita-backend-api/src/main/java/com/gita/backend/api/user/UserService.java" />
       <change beforePath="$PROJECT_DIR$/gita-backend-service/gita-backend-service-user/src/main/java/com/gita/backend/GitaBackendServiceApplication.java" afterPath="$PROJECT_DIR$/gita-backend-service/gita-backend-service-user/src/main/java/com/gita/backend/GitaBackendServiceApplication.java" />
-      <change beforePath="$PROJECT_DIR$/gita-backend-service/gita-backend-service-user/src/main/java/com/gita/backend/configuration/DataSourceConfig.java" afterPath="$PROJECT_DIR$/gita-backend-service/gita-backend-service-user/src/main/java/com/gita/backend/configuration/DataSourceConfig.java" />
+      <change beforePath="$PROJECT_DIR$/gita-backend-service/gita-backend-service-user/src/main/java/com/gita/backend/configuration/MybatisConfiguration.java" afterPath="$PROJECT_DIR$/gita-backend-service/gita-backend-service-user/src/main/java/com/gita/backend/configuration/MybatisConfiguration.java" />
       <change beforePath="$PROJECT_DIR$/gita-backend-service/gita-backend-service-user/src/main/java/com/gita/backend/service/UserServiceImpl.java" afterPath="$PROJECT_DIR$/gita-backend-service/gita-backend-service-user/src/main/java/com/gita/backend/service/UserServiceImpl.java" />
-      <change beforePath="$PROJECT_DIR$/gita-backend-service/gita-backend-service-user/src/main/resources/application-dev.yml" afterPath="$PROJECT_DIR$/gita-backend-service/gita-backend-service-user/src/main/resources/application-dev.yml" />
-      <change beforePath="$PROJECT_DIR$/gita-backend-service/pom.xml" afterPath="$PROJECT_DIR$/gita-backend-service/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/gita-backend-web/pom.xml" afterPath="$PROJECT_DIR$/gita-backend-web/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/gita-backend-web/src/main/java/com/gita/backend/GitaBackendWebApplication.java" afterPath="$PROJECT_DIR$/gita-backend-web/src/main/java/com/gita/backend/GitaBackendWebApplication.java" />
       <change beforePath="$PROJECT_DIR$/gita-backend-web/src/main/java/com/gita/backend/controller/UserController.java" afterPath="$PROJECT_DIR$/gita-backend-web/src/main/java/com/gita/backend/controller/UserController.java" />
-      <change beforePath="$PROJECT_DIR$/gita-backend-web/src/main/resources/application-dev.yml" afterPath="$PROJECT_DIR$/gita-backend-web/src/main/resources/application-dev.yml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -35,32 +33,27 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="application-dev.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gita-backend-service/gita-backend-service-user/src/main/resources/application-dev.yml">
+      <file leaf-file-name="UserServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gita-backend-service/gita-backend-service-user/src/main/java/com/gita/backend/service/UserServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="11" column="91" lean-forward="true" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="91" />
-              <folding />
+            <state relative-caret-position="320">
+              <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+              <folding>
+                <element signature="e#803#804#0" expanded="true" />
+                <element signature="e#851#852#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gita-backend-web/pom.xml">
+      <file leaf-file-name="UserEnter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gita-backend-api/src/main/java/com/gita/backend/dto/user/UserEnter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="159">
-              <caret line="38" column="47" lean-forward="false" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="47" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application-dev.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gita-backend-web/src/main/resources/application-dev.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-              <folding />
+            <state relative-caret-position="200">
+              <caret line="10" column="24" lean-forward="false" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -68,32 +61,76 @@
       <file leaf-file-name="UserController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gita-backend-web/src/main/java/com/gita/backend/controller/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="98">
-              <caret line="17" column="29" lean-forward="true" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+            <state relative-caret-position="340">
+              <caret line="21" column="29" lean-forward="false" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserServiceImpl.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/gita-backend-service/gita-backend-service-user/src/main/java/com/gita/backend/service/UserServiceImpl.java">
+      <file leaf-file-name="GolbalException.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/gita-backend-web/src/main/java/com/gita/backend/configuartion/GolbalException.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+            <state relative-caret-position="269">
+              <caret line="44" column="5" lean-forward="true" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
               <folding>
-                <element signature="e#357#358#0" expanded="true" />
-                <element signature="e#405#406#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GitaBackendWebApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gita-backend-web/src/main/java/com/gita/backend/GitaBackendWebApplication.java">
+      <file leaf-file-name="Response.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gita-backend-api/src/main/java/com/gita/backend/dto/common/Response.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="9" column="44" lean-forward="true" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+            <state relative-caret-position="369">
+              <caret line="40" column="12" lean-forward="false" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="12" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#541#542#0" expanded="true" />
+                <element signature="e#576#577#0" expanded="true" />
+                <element signature="e#1069#1070#0" expanded="true" />
+                <element signature="e#1106#1107#0" expanded="true" />
+                <element signature="e#1173#1174#0" expanded="true" />
+                <element signature="e#1229#1230#0" expanded="true" />
+                <element signature="e#1266#1267#0" expanded="true" />
+                <element signature="e#1313#1314#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gita-backend-api/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="21" column="19" lean-forward="false" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gita-backend-api/src/main/java/com/gita/backend/api/user/UserService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="11" column="9" lean-forward="false" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BusinessException.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gita-backend-api/src/main/java/com/gita/backend/exceptions/BusinessException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+              <folding>
+                <element signature="e#604#605#0" expanded="true" />
+                <element signature="e#658#659#0" expanded="true" />
+                <element signature="e#1886#1887#0" expanded="true" />
+                <element signature="e#1937#1938#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -101,8 +138,8 @@
       <file leaf-file-name="GitaBackendServiceApplication.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gita-backend-service/gita-backend-service-user/src/main/java/com/gita/backend/GitaBackendServiceApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158">
-              <caret line="10" column="44" lean-forward="true" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
+            <state relative-caret-position="180">
+              <caret line="11" column="20" lean-forward="false" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -132,6 +169,10 @@
       <find>spring-boot-starter-dubbo</find>
       <find>spring-boot-starter-web</find>
       <find>RegistryConfig</find>
+      <find>dao-locations</find>
+      <find>type-aliases-package</find>
+      <find>configuration</find>
+      <find>map-underscore-to-camel-case</find>
     </findStrings>
     <replaceStrings>
       <replace>xqtravelRWDbProperties</replace>
@@ -140,6 +181,7 @@
     </replaceStrings>
     <dirStrings>
       <dir>D:\MY_PROJECT\gitabackend</dir>
+      <dir>D:\MY_PROJECT\gita-app-backend</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -156,7 +198,6 @@
         <option value="$PROJECT_DIR$/gita-backend-web/src/main/resources/profiles/dev.js" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/gita-backend-web/src/main/java/com/gita/backend/web/GitaBackendWebApplication.java" />
-        <option value="$PROJECT_DIR$/gita-backend-api/pom.xml" />
         <option value="$PROJECT_DIR$/gita-backend-service/gita-backend-service-user/src/main/java/com/gita/backend/service/GitaBackendServiceApplication.java" />
         <option value="$PROJECT_DIR$/gita-backend-service/gita-backend-service-user/pom.xml" />
         <option value="$PROJECT_DIR$/gita-backend-service/gita-backend-service-user/src/main/resources/application.properties" />
@@ -164,7 +205,6 @@
         <option value="$PROJECT_DIR$/gita-backend-web/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/gita-backend-service/gita-backend-service-user/src/main/java/com/gita/backend/dto/UserModel.java" />
         <option value="$PROJECT_DIR$/gita-backend-service/gita-backend-service-user/src/main/java/com/gita/backend/model/UserModel.java" />
-        <option value="$PROJECT_DIR$/gita-backend-api/src/main/java/com/gita/backend/api/user/UserService.java" />
         <option value="$PROJECT_DIR$/gita-backend-service/gita-backend-service-user/src/main/java/com/gita/backend/configuration/DataSourceConfig/DataSourceConfig.java" />
         <option value="$PROJECT_DIR$/gita-backend-common/src/main/java/com/gita/backend/util/DataSourceContext.java" />
         <option value="$PROJECT_DIR$/gita-backend-common/src/main/java/com/gita/backend/context/DataSourceContext.java" />
@@ -173,16 +213,28 @@
         <option value="$PROJECT_DIR$/gita-backend-service/gita-backend-service-user/src/main/java/com/gita/backend/configuration/dbProperties/aop/DataSourceAop.java" />
         <option value="$PROJECT_DIR$/gita-backend-service/gita-backend-service-user/src/main/java/com/gita/backend/configuration/DataSourceConfig.java" />
         <option value="$PROJECT_DIR$/gita-backend-common/src/main/java/com/gita/backend/enums/DataSourceType.java" />
-        <option value="$PROJECT_DIR$/gita-backend-service/gita-backend-service-user/src/main/java/com/gita/backend/configuration/MybatisConfiguration.java" />
         <option value="$PROJECT_DIR$/gita-backend-service/pom.xml" />
-        <option value="$PROJECT_DIR$/gita-backend-service/gita-backend-service-user/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/gita-backend-web/pom.xml" />
-        <option value="$PROJECT_DIR$/gita-backend-service/gita-backend-service-user/src/main/java/com/gita/backend/GitaBackendServiceApplication.java" />
         <option value="$PROJECT_DIR$/gita-backend-web/src/main/java/com/gita/backend/GitaBackendWebApplication.java" />
-        <option value="$PROJECT_DIR$/gita-backend-web/src/main/java/com/gita/backend/controller/UserController.java" />
         <option value="$PROJECT_DIR$/gita-backend-service/gita-backend-service-user/src/main/resources/application-dev.yml" />
         <option value="$PROJECT_DIR$/gita-backend-web/src/main/resources/application-dev.yml" />
+        <option value="$PROJECT_DIR$/gita-backend-common/src/main/java/com/gita/backend/common/Gerenter.java" />
+        <option value="$PROJECT_DIR$/gita-backend-common/src/main/java/com/gita/backend/common/GeneralEnter.java" />
+        <option value="$PROJECT_DIR$/gita-backend-common/src/main/java/com/gita/backend/common/PageEnter.java" />
+        <option value="$PROJECT_DIR$/gita-backend-api/src/main/java/com/gita/backend/api/user/UserService.java" />
+        <option value="$PROJECT_DIR$/gita-backend-service/gita-backend-service-user/src/main/java/com/gita/backend/dao/UserMapper.java" />
+        <option value="$PROJECT_DIR$/gita-backend-service/gita-backend-service-user/src/main/resources/mapper/UserMapper.xml" />
+        <option value="$PROJECT_DIR$/gita-backend-service/gita-backend-service-user/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/gita-backend-service/gita-backend-service-user/src/main/java/com/gita/backend/configuration/MybatisConfiguration.java" />
+        <option value="$PROJECT_DIR$/gita-backend-service/gita-backend-service-user/src/main/java/com/gita/backend/GitaBackendServiceApplication.java" />
+        <option value="$PROJECT_DIR$/gita-backend-web/src/main/java/com/gita/backend/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/gita-backend-common/src/main/java/com/gita/backend/exceptions/BueninessException.java" />
+        <option value="$PROJECT_DIR$/gita-backend-common/src/main/java/com/gita/backend/exceptions/BusinessException.java" />
+        <option value="$PROJECT_DIR$/gita-backend-api/pom.xml" />
+        <option value="$PROJECT_DIR$/gita-backend-api/src/main/java/com/gita/backend/dto/user/UserEnter.java" />
+        <option value="$PROJECT_DIR$/gita-backend-api/src/main/java/com/gita/backend/dto/common/Response.java" />
         <option value="$PROJECT_DIR$/gita-backend-service/gita-backend-service-user/src/main/java/com/gita/backend/service/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/gita-backend-web/src/main/java/com/gita/backend/configuartion/GolbalException.java" />
       </list>
     </option>
   </component>
@@ -259,6 +311,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -269,6 +322,106 @@
             <path>
               <item name="gita-app-backend" type="b2602c69:ProjectViewProjectNode" />
               <item name="gita-app-backend" type="462c0819:PsiDirectoryNode" />
+              <item name="gita-backend-api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gita-app-backend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gita-app-backend" type="462c0819:PsiDirectoryNode" />
+              <item name="gita-backend-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gita-app-backend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gita-app-backend" type="462c0819:PsiDirectoryNode" />
+              <item name="gita-backend-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gita-app-backend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gita-app-backend" type="462c0819:PsiDirectoryNode" />
+              <item name="gita-backend-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gita-app-backend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gita-app-backend" type="462c0819:PsiDirectoryNode" />
+              <item name="gita-backend-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gita-app-backend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gita-app-backend" type="462c0819:PsiDirectoryNode" />
+              <item name="gita-backend-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gita-app-backend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gita-app-backend" type="462c0819:PsiDirectoryNode" />
+              <item name="gita-backend-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+              <item name="UserService" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="gita-app-backend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gita-app-backend" type="462c0819:PsiDirectoryNode" />
+              <item name="gita-backend-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+              <item name="dto" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gita-app-backend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gita-app-backend" type="462c0819:PsiDirectoryNode" />
+              <item name="gita-backend-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+              <item name="dto" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gita-app-backend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gita-app-backend" type="462c0819:PsiDirectoryNode" />
+              <item name="gita-backend-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+              <item name="dto" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gita-app-backend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gita-app-backend" type="462c0819:PsiDirectoryNode" />
+              <item name="gita-backend-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+              <item name="dto" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+              <item name="UserEnter" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="gita-app-backend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gita-app-backend" type="462c0819:PsiDirectoryNode" />
               <item name="gita-backend-service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -332,7 +485,53 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="backend" type="462c0819:PsiDirectoryNode" />
               <item name="configuration" type="462c0819:PsiDirectoryNode" />
-              <item name="dbProperties" type="462c0819:PsiDirectoryNode" />
+              <item name="MybatisConfiguration" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="gita-app-backend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gita-app-backend" type="462c0819:PsiDirectoryNode" />
+              <item name="gita-backend-service" type="462c0819:PsiDirectoryNode" />
+              <item name="gita-backend-service-user" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gita-app-backend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gita-app-backend" type="462c0819:PsiDirectoryNode" />
+              <item name="gita-backend-service" type="462c0819:PsiDirectoryNode" />
+              <item name="gita-backend-service-user" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+              <item name="UserMapper" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="gita-app-backend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gita-app-backend" type="462c0819:PsiDirectoryNode" />
+              <item name="gita-backend-service" type="462c0819:PsiDirectoryNode" />
+              <item name="gita-backend-service-user" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gita-app-backend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gita-app-backend" type="462c0819:PsiDirectoryNode" />
+              <item name="gita-backend-service" type="462c0819:PsiDirectoryNode" />
+              <item name="gita-backend-service-user" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="UserModel" type="1a9f42e2:ClassTreeNode" />
             </path>
             <path>
               <item name="gita-app-backend" type="b2602c69:ProjectViewProjectNode" />
@@ -369,64 +568,76 @@
             <path>
               <item name="gita-app-backend" type="b2602c69:ProjectViewProjectNode" />
               <item name="gita-app-backend" type="462c0819:PsiDirectoryNode" />
-              <item name="gita-backend-web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gita-app-backend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gita-app-backend" type="462c0819:PsiDirectoryNode" />
-              <item name="gita-backend-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gita-app-backend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gita-app-backend" type="462c0819:PsiDirectoryNode" />
-              <item name="gita-backend-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gita-app-backend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gita-app-backend" type="462c0819:PsiDirectoryNode" />
-              <item name="gita-backend-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gita-app-backend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gita-app-backend" type="462c0819:PsiDirectoryNode" />
-              <item name="gita-backend-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gita-app-backend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gita-app-backend" type="462c0819:PsiDirectoryNode" />
-              <item name="gita-backend-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gita-app-backend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gita-app-backend" type="462c0819:PsiDirectoryNode" />
-              <item name="gita-backend-web" type="462c0819:PsiDirectoryNode" />
+              <item name="gita-backend-service" type="462c0819:PsiDirectoryNode" />
+              <item name="gita-backend-service-user" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gita-app-backend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gita-app-backend" type="462c0819:PsiDirectoryNode" />
+              <item name="gita-backend-web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gita-app-backend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gita-app-backend" type="462c0819:PsiDirectoryNode" />
+              <item name="gita-backend-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gita-app-backend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gita-app-backend" type="462c0819:PsiDirectoryNode" />
+              <item name="gita-backend-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gita-app-backend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gita-app-backend" type="462c0819:PsiDirectoryNode" />
+              <item name="gita-backend-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gita-app-backend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gita-app-backend" type="462c0819:PsiDirectoryNode" />
+              <item name="gita-backend-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gita-app-backend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gita-app-backend" type="462c0819:PsiDirectoryNode" />
+              <item name="gita-backend-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+              <item name="configuartion" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gita-app-backend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gita-app-backend" type="462c0819:PsiDirectoryNode" />
+              <item name="gita-backend-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+              <item name="configuartion" type="462c0819:PsiDirectoryNode" />
+              <item name="GolbalException" type="1a9f42e2:ClassTreeNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="Scope" />
-      <pane id="Scratches" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -447,18 +658,20 @@
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\MY_PROJECT\gitabackend\gita-backend-service\gita-backend-service-user\src\main\resources" />
-      <recent name="D:\MY_PROJECT\gitabackend\gita-backend-service\gita-backend-service-user\src\main\resources\profiles" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.gita.backend.configuration" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\MY_PROJECT\gita-app-backend\gita-backend-service\gita-backend-service-user\src\main\resources\mapper" />
       <recent name="D:\MY_PROJECT\gita-app-backend\gita-backend-service\gita-backend-service-user\src\main\java\com\gita\backend\configuration" />
       <recent name="D:\MY_PROJECT\gitabackend\gita-backend-web\src\main\resources" />
       <recent name="D:\MY_PROJECT\gitabackend\gita-backend-service\gita-backend-service-user\src\main\resources" />
       <recent name="D:\MY_PROJECT\gitabackend\gita-backend-web\src\main\resources\profiles" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.gita.backend.common" />
+      <recent name="com.gita.backend.configuration" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\MY_PROJECT\gitabackend\gita-backend-service\gita-backend-service-user\src\main\resources" />
+      <recent name="D:\MY_PROJECT\gitabackend\gita-backend-service\gita-backend-service-user\src\main\resources\profiles" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -473,7 +686,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.GitaBackendServiceApplication (2)">
+  <component name="RunManager" selected="Application.GitaBackendWebApplication">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -640,8 +853,8 @@
     </list>
     <recent_temporary>
       <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Spring Boot.GitaBackendServiceApplication (2)" />
-        <item index="1" class="java.lang.String" itemvalue="Application.GitaBackendWebApplication" />
+        <item index="0" class="java.lang.String" itemvalue="Application.GitaBackendWebApplication" />
+        <item index="1" class="java.lang.String" itemvalue="Spring Boot.GitaBackendServiceApplication (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -668,7 +881,8 @@
       <workItem from="1534383205332" duration="1201000" />
       <workItem from="1534820825968" duration="4166000" />
       <workItem from="1534837497480" duration="6005000" />
-      <workItem from="1534902102716" duration="7824000" />
+      <workItem from="1534902102716" duration="7907000" />
+      <workItem from="1534926428573" duration="6985000" />
     </task>
     <task id="LOCAL-00001" summary="dubbo url">
       <created>1530173208947</created>
@@ -691,11 +905,18 @@
       <option name="project" value="LOCAL" />
       <updated>1534829882465</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="spring boot dubbo 集成">
+      <created>1534915994749</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1534915994749</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48493000" />
+    <option name="totallyTimeSpent" value="55561000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1358" y="-170" width="1936" height="1056" extended-state="6" />
@@ -743,235 +964,20 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="dubbo url" />
     <MESSAGE value="增加数据源" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加数据源" />
+    <MESSAGE value="spring boot dubbo 集成" />
+    <option name="LAST_COMMIT_MESSAGE" value="spring boot dubbo 集成" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <option name="time" value="4" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/gita-backend-common/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="18" column="21" lean-forward="false" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gita-backend-service/gita-backend-service-user/src/main/java/com/gita/backend/configuration/dbProperties/CRMDbProperties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="15" column="10" lean-forward="false" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gita-backend-service/gita-backend-service-user/src/main/java/com/gita/backend/configuration/dbProperties/aop/DataSourceAop.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="34" column="45" lean-forward="false" selection-start-line="34" selection-start-column="45" selection-end-line="34" selection-end-column="45" />
-          <folding>
-            <element signature="e#1339#1340#0" expanded="false" />
-            <element signature="e#1380#1381#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gita-backend-common/src/main/java/com/gita/backend/annotation/DataSource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="16" column="8" lean-forward="false" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gita-backend-common/src/main/java/com/gita/backend/context/DataSourceContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="14" column="25" lean-forward="false" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gita-backend-service/gita-backend-service-user/src/main/resources/application-beta.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gita-backend-service/gita-backend-service-user/src/main/java/com/gita/backend/configuration/dbProperties/XqtravelRWDbProperties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="24" column="20" lean-forward="false" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gita-backend-common/src/main/java/com/gita/backend/enums/DataSourceType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="20" lean-forward="false" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gita-backend-service/gita-backend-service-user/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="20" column="65" lean-forward="false" selection-start-line="20" selection-start-column="65" selection-end-line="20" selection-end-column="65" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.5.8/dubbo-2.5.8.jar!/com/alibaba/dubbo/remoting/transport/AbstractServer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="52" column="0" lean-forward="false" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.0.3.RELEASE/spring-boot-2.0.3.RELEASE.jar!/org/springframework/boot/SpringApplication.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="167" column="29" lean-forward="true" selection-start-line="167" selection-start-column="29" selection-end-line="167" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gita-backend-service/gita-backend-service-user/src/main/java/com/gita/backend/configuration/DataSourceConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="50" column="5" lean-forward="false" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.5.8/dubbo-2.5.8.jar!/com/alibaba/dubbo/config/spring/context/annotation/EnableDubbo.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="26" column="43" lean-forward="true" selection-start-line="26" selection-start-column="43" selection-end-line="26" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.5.8/dubbo-2.5.8.jar!/com/alibaba/dubbo/registry/dubbo/DubboRegistryFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="69" column="38" lean-forward="false" selection-start-line="69" selection-start-column="30" selection-end-line="69" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.5.8/dubbo-2.5.8.jar!/com/alibaba/dubbo/registry/dubbo/DubboRegistry.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="33" column="33" lean-forward="false" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.5.8/dubbo-2.5.8.jar!/com/alibaba/dubbo/config/RegistryConfig.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="11" column="41" lean-forward="false" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
-          <folding>
-            <marker date="1516181930044" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1516181930044" expanded="false" signature="148:280" ph="..." />
-            <marker date="1516181930044" expanded="true" signature="1098:1105" ph="{}" />
-            <marker date="1516181930044" expanded="false" signature="1148:1159" ph=" { " />
-            <marker date="1516181930044" expanded="false" signature="1184:1190" ph=" }" />
-            <marker date="1516181930044" expanded="false" signature="1227:1238" ph=" { " />
-            <marker date="1516181930044" expanded="false" signature="1275:1281" ph=" }" />
-            <marker date="1516181930044" expanded="true" signature="1287:1305" ph="/**...*/" />
-            <marker date="1516181930044" expanded="false" signature="1355:1366" ph=" { " />
-            <marker date="1516181930044" expanded="false" signature="1379:1385" ph=" }" />
-            <marker date="1516181930044" expanded="false" signature="1418:1429" ph=" { " />
-            <marker date="1516181930044" expanded="false" signature="1450:1456" ph=" }" />
-            <marker date="1516181930044" expanded="true" signature="1503:1585" ph="{...}" />
-            <marker date="1516181930044" expanded="true" signature="1591:1632" ph="@{...}" />
-            <marker date="1516181930044" expanded="false" signature="1663:1674" ph=" { " />
-            <marker date="1516181930044" expanded="false" signature="1694:1700" ph=" }" />
-            <marker date="1516181930044" expanded="false" signature="1744:1755" ph=" { " />
-            <marker date="1516181930044" expanded="false" signature="1778:1784" ph=" }" />
-            <marker date="1516181930044" expanded="false" signature="1814:1825" ph=" { " />
-            <marker date="1516181930044" expanded="false" signature="1842:1848" ph=" }" />
-            <marker date="1516181930044" expanded="false" signature="1887:1898" ph=" { " />
-            <marker date="1516181930044" expanded="false" signature="1915:1921" ph=" }" />
-            <marker date="1516181930044" expanded="false" signature="1954:1965" ph=" { " />
-            <marker date="1516181930044" expanded="false" signature="1986:1992" ph=" }" />
-            <marker date="1516181930044" expanded="true" signature="2039:2121" ph="{...}" />
-            <marker date="1516181930044" expanded="false" signature="2154:2165" ph=" { " />
-            <marker date="1516181930044" expanded="false" signature="2186:2192" ph=" }" />
-            <marker date="1516181930044" expanded="true" signature="2239:2323" ph="{...}" />
-            <marker date="1516181930044" expanded="true" signature="2329:2347" ph="/**...*/" />
-            <marker date="1516181930044" expanded="false" signature="2392:2403" ph=" { " />
-            <marker date="1516181930044" expanded="false" signature="2420:2426" ph=" }" />
-            <marker date="1516181930044" expanded="true" signature="2432:2450" ph="/**...*/" />
-            <marker date="1516181930044" expanded="true" signature="2505:2674" ph="{...}" />
-            <marker date="1516181930044" expanded="false" signature="2704:2715" ph=" { " />
-            <marker date="1516181930044" expanded="false" signature="2733:2739" ph=" }" />
-            <marker date="1516181930044" expanded="false" signature="2780:2791" ph=" { " />
-            <marker date="1516181930044" expanded="false" signature="2810:2816" ph=" }" />
-            <marker date="1516181930044" expanded="false" signature="2845:2856" ph=" { " />
-            <marker date="1516181930044" expanded="false" signature="2873:2879" ph=" }" />
-            <marker date="1516181930044" expanded="true" signature="2918:2990" ph="{...}" />
-            <marker date="1516181930044" expanded="true" signature="2996:3014" ph="/**...*/" />
-            <marker date="1516181930044" expanded="true" signature="3019:3076" ph="@{...}" />
-            <marker date="1516181930044" expanded="false" signature="3109:3120" ph=" { " />
-            <marker date="1516181930044" expanded="false" signature="3149:3155" ph=" }" />
-            <marker date="1516181930044" expanded="true" signature="3161:3179" ph="/**...*/" />
-            <marker date="1516181930044" expanded="false" signature="3242:3253" ph=" { " />
-            <marker date="1516181930044" expanded="false" signature="3284:3290" ph=" }" />
-            <marker date="1516181930044" expanded="false" signature="3326:3337" ph=" { " />
-            <marker date="1516181930044" expanded="false" signature="3361:3367" ph=" }" />
-            <marker date="1516181930044" expanded="true" signature="3420:3514" ph="{...}" />
-            <marker date="1516181930044" expanded="false" signature="3545:3556" ph=" { " />
-            <marker date="1516181930044" expanded="false" signature="3575:3581" ph=" }" />
-            <marker date="1516181930044" expanded="true" signature="3624:3698" ph="{...}" />
-            <marker date="1516181930044" expanded="false" signature="3729:3740" ph=" { " />
-            <marker date="1516181930044" expanded="false" signature="3759:3765" ph=" }" />
-            <marker date="1516181930044" expanded="true" signature="3808:3882" ph="{...}" />
-            <marker date="1516181930044" expanded="false" signature="3915:3926" ph=" { " />
-            <marker date="1516181930044" expanded="false" signature="3946:3952" ph=" }" />
-            <marker date="1516181930044" expanded="false" signature="3997:4008" ph=" { " />
-            <marker date="1516181930044" expanded="false" signature="4031:4037" ph=" }" />
-            <marker date="1516181930044" expanded="false" signature="4070:4081" ph=" { " />
-            <marker date="1516181930044" expanded="false" signature="4101:4107" ph=" }" />
-            <marker date="1516181930044" expanded="false" signature="4152:4163" ph=" { " />
-            <marker date="1516181930044" expanded="false" signature="4186:4192" ph=" }" />
-            <marker date="1516181930044" expanded="false" signature="4224:4235" ph=" { " />
-            <marker date="1516181930044" expanded="false" signature="4255:4261" ph=" }" />
-            <marker date="1516181930044" expanded="false" signature="4306:4317" ph=" { " />
-            <marker date="1516181930044" expanded="false" signature="4340:4346" ph=" }" />
-            <marker date="1516181930044" expanded="false" signature="4379:4390" ph=" { " />
-            <marker date="1516181930044" expanded="false" signature="4411:4417" ph=" }" />
-            <marker date="1516181930044" expanded="false" signature="4464:4475" ph=" { " />
-            <marker date="1516181930044" expanded="false" signature="4500:4506" ph=" }" />
-            <marker date="1516181930044" expanded="false" signature="4540:4551" ph=" { " />
-            <marker date="1516181930044" expanded="false" signature="4573:4579" ph=" }" />
-            <marker date="1516181930044" expanded="false" signature="4628:4639" ph=" { " />
-            <marker date="1516181930044" expanded="false" signature="4666:4672" ph=" }" />
-            <marker date="1516181930044" expanded="false" signature="4704:4715" ph=" { " />
-            <marker date="1516181930044" expanded="false" signature="4735:4741" ph=" }" />
-            <marker date="1516181930044" expanded="false" signature="4785:4796" ph=" { " />
-            <marker date="1516181930044" expanded="false" signature="4819:4825" ph=" }" />
-            <marker date="1516181930044" expanded="false" signature="4855:4866" ph=" { " />
-            <marker date="1516181930044" expanded="false" signature="4884:4890" ph=" }" />
-            <marker date="1516181930044" expanded="false" signature="4930:4941" ph=" { " />
-            <marker date="1516181930044" expanded="false" signature="4960:4966" ph=" }" />
-            <marker date="1516181930044" expanded="false" signature="4998:5009" ph=" { " />
-            <marker date="1516181930044" expanded="false" signature="5029:5035" ph=" }" />
-            <marker date="1516181930044" expanded="false" signature="5079:5090" ph=" { " />
-            <marker date="1516181930044" expanded="false" signature="5113:5119" ph=" }" />
-            <marker date="1516181930044" expanded="false" signature="5167:5178" ph=" { " />
-            <marker date="1516181930044" expanded="false" signature="5201:5207" ph=" }" />
-            <marker date="1516181930044" expanded="true" signature="5271:5356" ph="{...}" />
-            <marker date="1516181930044" expanded="false" signature="5388:5399" ph=" { " />
-            <marker date="1516181930044" expanded="false" signature="5421:5427" ph=" }" />
-            <marker date="1516181930044" expanded="false" signature="5474:5485" ph=" { " />
-            <marker date="1516181930044" expanded="false" signature="5512:5518" ph=" }" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -979,43 +985,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="800">
           <caret line="60" column="35" lean-forward="false" selection-start-line="60" selection-start-column="29" selection-end-line="60" selection-end-column="35" />
-          <folding>
-            <marker date="1516181930044" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1516181930044" expanded="false" signature="148:861" ph="..." />
-            <marker date="1516181930044" expanded="true" signature="1946:1953" ph="{}" />
-            <marker date="1516181930044" expanded="true" signature="2026:2415" ph="{...}" />
-            <marker date="1516181930044" expanded="true" signature="2483:6184" ph="{...}" />
-            <marker date="1516181930044" expanded="true" signature="6237:6646" ph="{...}" />
-            <marker date="1516181930044" expanded="true" signature="6738:6805" ph="{...}" />
-            <marker date="1516181930044" expanded="true" signature="6912:10719" ph="{...}" />
-            <marker date="1516181930044" expanded="true" signature="10811:10878" ph="{...}" />
-            <marker date="1516181930044" expanded="true" signature="10985:12769" ph="{...}" />
-            <marker date="1516181930044" expanded="true" signature="12825:13106" ph="{...}" />
-            <marker date="1516181930044" expanded="true" signature="13180:14559" ph="{...}" />
-            <marker date="1516181930044" expanded="true" signature="14648:14936" ph="{...}" />
-            <marker date="1516181930044" expanded="true" signature="15030:15718" ph="{...}" />
-            <marker date="1516181930044" expanded="true" signature="15789:15856" ph="{...}" />
-            <marker date="1516181930044" expanded="true" signature="15931:15998" ph="{...}" />
-            <marker date="1516181930044" expanded="true" signature="16067:16133" ph="{...}" />
-            <marker date="1516181930044" expanded="true" signature="16211:16288" ph="{...}" />
-            <marker date="1516181930044" expanded="false" signature="16355:16366" ph=" { " />
-            <marker date="1516181930044" expanded="false" signature="16415:16421" ph=" }" />
-            <marker date="1516181930044" expanded="true" signature="16495:16567" ph="{...}" />
-            <marker date="1516181930044" expanded="true" signature="16640:16706" ph="{...}" />
-            <marker date="1516181930044" expanded="true" signature="16781:16854" ph="{...}" />
-            <marker date="1516181930044" expanded="true" signature="16933:17270" ph="{...}" />
-            <marker date="1516181930044" expanded="true" signature="17375:18013" ph="{...}" />
-            <marker date="1516181930044" expanded="true" signature="18019:18060" ph="@{...}" />
-            <marker date="1516181930044" expanded="false" signature="18086:18097" ph=" { " />
-            <marker date="1516181930044" expanded="false" signature="18112:18118" ph=" }" />
-            <marker date="1516181930044" expanded="false" signature="18152:18163" ph=" { " />
-            <marker date="1516181930044" expanded="false" signature="18176:18182" ph=" }" />
-            <marker date="1516181930044" expanded="true" signature="18265:20342" ph="{...}" />
-            <marker date="1516181930044" expanded="true" signature="20373:21998" ph="{...}" />
-            <marker date="1516181930044" expanded="true" signature="22011:23053" ph="{...}" />
-            <marker date="1516181930044" expanded="false" signature="22752:22800" ph="run() → {" />
-            <marker date="1516181930044" expanded="false" signature="23008:23023" ph="}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1040,27 +1009,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gita-backend-service/gita-backend-service-user/src/main/java/com/gita/backend/configuration/MybatisConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-292">
-          <caret line="50" column="37" lean-forward="false" selection-start-line="50" selection-start-column="37" selection-end-line="50" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gita-backend-service/gita-backend-service-user/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="13" column="33" lean-forward="false" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.6.2/dubbo-2.6.2.jar!/com/alibaba/dubbo/config/annotation/Service.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-246">
           <caret line="18" column="18" lean-forward="false" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1076,7 +1028,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
           <caret line="103" column="28" lean-forward="true" selection-start-line="103" selection-start-column="28" selection-end-line="103" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1090,7 +1041,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/gita-backend-web/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
+        <state relative-caret-position="760">
           <caret line="38" column="47" lean-forward="false" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="47" />
           <folding />
         </state>
@@ -1100,7 +1051,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1108,7 +1058,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
           <caret line="87" column="24" lean-forward="true" selection-start-line="87" selection-start-column="24" selection-end-line="87" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1116,7 +1065,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="10" column="24" lean-forward="false" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1124,7 +1072,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
           <caret line="12" column="34" lean-forward="true" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1132,7 +1079,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1620">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1140,7 +1086,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2400">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1148,7 +1093,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="10" column="50" lean-forward="false" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="67" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1156,7 +1100,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
           <caret line="16" column="36" lean-forward="true" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1164,7 +1107,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1172,7 +1114,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
           <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1180,7 +1121,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
           <caret line="55" column="21" lean-forward="true" selection-start-line="55" selection-start-column="21" selection-end-line="55" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1188,7 +1128,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="14" column="22" lean-forward="false" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1196,7 +1135,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-173">
           <caret line="15" column="22" lean-forward="false" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1204,7 +1142,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1212,7 +1149,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
           <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1220,7 +1156,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
           <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1228,7 +1163,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="460">
           <caret line="83" column="0" lean-forward="true" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1236,22 +1170,73 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="11" column="23" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gita-backend-service/gita-backend-service-user/src/main/resources/application-dev.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" column="91" lean-forward="true" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="91" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gita-backend-web/src/main/resources/application-dev.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+          <caret line="9" column="22" lean-forward="false" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gita-backend-service/gita-backend-service-user/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="42" lean-forward="true" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gita-backend-service/gita-backend-service-user/src/main/java/com/gita/backend/model/UserModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gita-backend-service/gita-backend-service-user/src/main/resources/mapper/UserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="62" lean-forward="true" selection-start-line="6" selection-start-column="62" selection-end-line="6" selection-end-column="62" />
+          <folding>
+            <marker date="1534928197263" expanded="true" signature="339:393" ph="SELECT * FRO... tt_battery_user" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gita-backend-service/gita-backend-service-user/src/main/resources/application-dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="13" column="7" lean-forward="false" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gita-backend-service/gita-backend-service-user/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="13" column="32" lean-forward="false" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gita-backend-service/gita-backend-service-user/src/main/java/com/gita/backend/dao/UserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="28" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gita-backend-service/gita-backend-service-user/src/main/java/com/gita/backend/configuration/MybatisConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="33" column="35" lean-forward="true" selection-start-line="33" selection-start-column="35" selection-end-line="33" selection-end-column="35" />
           <folding />
         </state>
       </provider>
@@ -1259,34 +1244,146 @@
     <entry file="file://$PROJECT_DIR$/gita-backend-web/src/main/java/com/gita/backend/GitaBackendWebApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
-          <caret line="9" column="44" lean-forward="true" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+          <caret line="9" column="44" lean-forward="false" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gita-backend-web/src/main/java/com/gita/backend/controller/UserController.java">
+    <entry file="jar://D:/DevTools/Java/jdk1.8.0_131/src.zip!/java/lang/Exception.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="17" column="29" lean-forward="true" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+        <state relative-caret-position="29">
+          <caret line="44" column="13" lean-forward="false" selection-start-line="44" selection-start-column="13" selection-end-line="44" selection-end-column="13" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/DevTools/Java/jdk1.8.0_131/src.zip!/java/lang/RuntimeException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="79" column="30" lean-forward="false" selection-start-line="79" selection-start-column="30" selection-end-line="79" selection-end-column="30" />
+          <folding>
+            <element signature="e#1175#1176#0" expanded="false" />
+            <element signature="e#1198#1199#0" expanded="false" />
+            <element signature="e#2364#2365#0" expanded="false" />
+            <element signature="e#2401#2402#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gita-backend-service/gita-backend-service-user/src/main/java/com/gita/backend/GitaBackendServiceApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="10" column="44" lean-forward="true" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
+        <state relative-caret-position="180">
+          <caret line="11" column="20" lean-forward="false" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.7.RELEASE/spring-web-5.0.7.RELEASE.jar!/org/springframework/web/bind/annotation/ExceptionHandler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="17" column="35" lean-forward="true" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gita-backend-api/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="21" column="19" lean-forward="false" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gita-backend-api/src/main/java/com/gita/backend/api/user/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="9" lean-forward="false" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gita-backend-api/src/main/java/com/gita/backend/dto/common/GeneralEnter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gita-backend-api/src/main/java/com/gita/backend/dto/common/PageEnter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="35" lean-forward="false" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gita-backend-api/src/main/java/com/gita/backend/dto/user/UserEnter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="24" lean-forward="false" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gita-backend-web/src/main/java/com/gita/backend/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="21" column="29" lean-forward="false" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gita-backend-api/src/main/java/com/gita/backend/dto/common/Response.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="40" column="12" lean-forward="false" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#541#542#0" expanded="true" />
+            <element signature="e#576#577#0" expanded="true" />
+            <element signature="e#1069#1070#0" expanded="true" />
+            <element signature="e#1106#1107#0" expanded="true" />
+            <element signature="e#1173#1174#0" expanded="true" />
+            <element signature="e#1229#1230#0" expanded="true" />
+            <element signature="e#1266#1267#0" expanded="true" />
+            <element signature="e#1313#1314#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gita-backend-api/src/main/java/com/gita/backend/exceptions/BusinessException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="e#604#605#0" expanded="true" />
+            <element signature="e#658#659#0" expanded="true" />
+            <element signature="e#1886#1887#0" expanded="true" />
+            <element signature="e#1937#1938#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gita-backend-service/gita-backend-service-user/src/main/java/com/gita/backend/service/UserServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        <state relative-caret-position="320">
+          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding>
-            <element signature="e#357#358#0" expanded="true" />
-            <element signature="e#405#406#0" expanded="true" />
+            <element signature="e#803#804#0" expanded="true" />
+            <element signature="e#851#852#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gita-backend-web/src/main/java/com/gita/backend/configuartion/GolbalException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="44" column="5" lean-forward="true" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

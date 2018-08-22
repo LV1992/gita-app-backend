@@ -31,7 +31,7 @@ import java.util.Map;
  */
 @Slf4j
 @Configuration
-@MapperScan("com.xqcx.crm.message.mapper")
+@MapperScan("com.gita.backend.dao")
 public class MybatisConfiguration {
     @Value("${mybatis.mapper-locations}")
     private String mapperLocations;

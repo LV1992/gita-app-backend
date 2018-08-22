@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.gita.backend.dao.UserMapper">
+
+
+    <select id="selectUser" parameterType="com.gita.backend.dto.user.UserEnter" resultType="com.gita.backend.model.UserModel">
+        SELECT * FROM tt_battery_user WHERE userName = #{name}
+    </select>
+
+</mapper>
