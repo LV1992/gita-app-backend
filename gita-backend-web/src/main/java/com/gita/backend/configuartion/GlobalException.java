@@ -18,7 +18,7 @@ import java.util.HashMap;
  */
 @ControllerAdvice
 @ResponseBody
-public class GolbalException {
+public class GlobalException {
 
 
     /**
