@@ -1,0 +1,31 @@
+package com.gita.backend.configuration.dbProperties;
+
+import lombok.Data;
+import lombok.ToString;
+import org.springframework.boot.context.properties.ConfigurationProperties;
+import org.springframework.stereotype.Component;
+
+/**
+ * @Auther: yihang.lv
+ * @Date: 2018-07-26 16:00
+ * @Description: 读库
+ */
+@Data
+@ToString
+@Component
+@ConfigurationProperties(prefix = "xqdbr.datasource")
+public class XqtravelRDbProperties {
+
+    private String driverClassName;
+    private String url;
+    private String username;
+    private String password;
+    private int initialSize;
+    private int maxActive;
+    private int minIdle;
+    private long maxWait;
+    private long timeBetweenEvictionRunsMillis;
+    private String validationQuery;
+    private boolean testWhileIdle;
+
+}

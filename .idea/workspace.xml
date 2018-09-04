@@ -2,20 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="98593d49-0714-43d2-863f-c0b5ac4314e1" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/gita-backend-api/src/main/java/com/gita/backend/dto/common/GeneralEnter.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/gita-backend-api/src/main/java/com/gita/backend/dto/common/PageEnter.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/gita-backend-api/src/main/java/com/gita/backend/dto/common/Response.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/gita-backend-api/src/main/java/com/gita/backend/dto/user/UserEnter.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/gita-backend-api/src/main/java/com/gita/backend/exceptions/BusinessException.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/gita-backend-service/gita-backend-service-user/src/main/java/com/gita/backend/dao/UserMapper.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/gita-backend-service/gita-backend-service-user/src/main/resources/mapper/UserMapper.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/gita-backend-web/src/main/java/com/gita/backend/configuartion/GolbalException.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/gita-backend-service/gita-backend-service-task/.gitignore" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/gita-backend-service/gita-backend-service-task/pom.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/gita-backend-service/gita-backend-service-task/src/main/java/com/gita/backend/configuration/DataSourceConfig.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/gita-backend-service/gita-backend-service-task/src/main/java/com/gita/backend/configuration/MybatisConfiguration.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/gita-backend-service/gita-backend-service-task/src/main/java/com/gita/backend/configuration/XxlJobConfig.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/gita-backend-service/gita-backend-service-task/src/main/java/com/gita/backend/configuration/dbProperties/CRMDbProperties.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/gita-backend-service/gita-backend-service-task/src/main/java/com/gita/backend/configuration/dbProperties/SiteMailDbProperties.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/gita-backend-service/gita-backend-service-task/src/main/java/com/gita/backend/configuration/dbProperties/XqtravelRDbProperties.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/gita-backend-service/gita-backend-service-task/src/main/java/com/gita/backend/configuration/dbProperties/XqtravelRWDbProperties.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/gita-backend-service/gita-backend-service-task/src/main/java/com/gita/backend/configuration/dbProperties/aop/DataSourceAop.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/gita-backend-service/gita-backend-service-task/src/main/java/com/gita/backend/service/UserService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/gita-backend-service/gita-backend-service-task/src/main/java/com/gita/backend/task/UserTask.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/gita-backend-service/gita-backend-service-task/src/main/resources/application-beta.yml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/gita-backend-service/gita-backend-service-task/src/main/resources/application-dev.yml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/gita-backend-service/gita-backend-service-task/src/main/resources/application-test.yml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/gita-backend-service/gita-backend-service-task/src/main/resources/application.yml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/gita-backend-service/gita-backend-service-task/src/test/java/com/gita/backend/service/gita/backend/service/task/GitaBackendServiceTaskApplicationTests.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/gita-backend-service/gita-backend-service-user/src/main/java/com/gita/backend/GitaBackendServiceUserApplication.java" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/gita-backend-api/src/main/java/com/gita/backend/api/user/UserService.java" afterPath="$PROJECT_DIR$/gita-backend-api/src/main/java/com/gita/backend/api/user/UserService.java" />
-      <change beforePath="$PROJECT_DIR$/gita-backend-service/gita-backend-service-user/src/main/java/com/gita/backend/GitaBackendServiceApplication.java" afterPath="$PROJECT_DIR$/gita-backend-service/gita-backend-service-user/src/main/java/com/gita/backend/GitaBackendServiceApplication.java" />
-      <change beforePath="$PROJECT_DIR$/gita-backend-service/gita-backend-service-user/src/main/java/com/gita/backend/configuration/MybatisConfiguration.java" afterPath="$PROJECT_DIR$/gita-backend-service/gita-backend-service-user/src/main/java/com/gita/backend/configuration/MybatisConfiguration.java" />
-      <change beforePath="$PROJECT_DIR$/gita-backend-service/gita-backend-service-user/src/main/java/com/gita/backend/service/UserServiceImpl.java" afterPath="$PROJECT_DIR$/gita-backend-service/gita-backend-service-user/src/main/java/com/gita/backend/service/UserServiceImpl.java" />
-      <change beforePath="$PROJECT_DIR$/gita-backend-web/src/main/java/com/gita/backend/controller/UserController.java" afterPath="$PROJECT_DIR$/gita-backend-web/src/main/java/com/gita/backend/controller/UserController.java" />
+      <change beforePath="$PROJECT_DIR$/gita-backend-service/gita-backend-service-user/src/main/java/com/gita/backend/GitaBackendServiceApplication.java" afterPath="$PROJECT_DIR$/gita-backend-service/gita-backend-service-task/src/main/java/com/gita/backend/GitaBackendServiceTaskApplication.java" />
+      <change beforePath="$PROJECT_DIR$/gita-backend-service/pom.xml" afterPath="$PROJECT_DIR$/gita-backend-service/pom.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -24,6 +35,7 @@
     <ignored path="$PROJECT_DIR$/gita-backend-service/target/" />
     <ignored path="$PROJECT_DIR$/gita-backend-service/gita-backend-service-user/target/" />
     <ignored path="$PROJECT_DIR$/gita-backend-common/target/" />
+    <ignored path="$PROJECT_DIR$/gita-backend-service/gita-backend-service-task/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,120 +44,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="UserServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gita-backend-service/gita-backend-service-user/src/main/java/com/gita/backend/service/UserServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-              <folding>
-                <element signature="e#803#804#0" expanded="true" />
-                <element signature="e#851#852#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserEnter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gita-backend-api/src/main/java/com/gita/backend/dto/user/UserEnter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="10" column="24" lean-forward="false" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gita-backend-web/src/main/java/com/gita/backend/controller/UserController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="21" column="29" lean-forward="false" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GolbalException.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/gita-backend-web/src/main/java/com/gita/backend/configuartion/GolbalException.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
-              <caret line="44" column="5" lean-forward="true" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Response.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gita-backend-api/src/main/java/com/gita/backend/dto/common/Response.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="369">
-              <caret line="40" column="12" lean-forward="false" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="12" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#541#542#0" expanded="true" />
-                <element signature="e#576#577#0" expanded="true" />
-                <element signature="e#1069#1070#0" expanded="true" />
-                <element signature="e#1106#1107#0" expanded="true" />
-                <element signature="e#1173#1174#0" expanded="true" />
-                <element signature="e#1229#1230#0" expanded="true" />
-                <element signature="e#1266#1267#0" expanded="true" />
-                <element signature="e#1313#1314#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gita-backend-api/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="21" column="19" lean-forward="false" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gita-backend-api/src/main/java/com/gita/backend/api/user/UserService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="11" column="9" lean-forward="false" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BusinessException.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gita-backend-api/src/main/java/com/gita/backend/exceptions/BusinessException.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-              <folding>
-                <element signature="e#604#605#0" expanded="true" />
-                <element signature="e#658#659#0" expanded="true" />
-                <element signature="e#1886#1887#0" expanded="true" />
-                <element signature="e#1937#1938#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GitaBackendServiceApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gita-backend-service/gita-backend-service-user/src/main/java/com/gita/backend/GitaBackendServiceApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="11" column="20" lean-forward="false" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -213,7 +112,6 @@
         <option value="$PROJECT_DIR$/gita-backend-service/gita-backend-service-user/src/main/java/com/gita/backend/configuration/dbProperties/aop/DataSourceAop.java" />
         <option value="$PROJECT_DIR$/gita-backend-service/gita-backend-service-user/src/main/java/com/gita/backend/configuration/DataSourceConfig.java" />
         <option value="$PROJECT_DIR$/gita-backend-common/src/main/java/com/gita/backend/enums/DataSourceType.java" />
-        <option value="$PROJECT_DIR$/gita-backend-service/pom.xml" />
         <option value="$PROJECT_DIR$/gita-backend-web/pom.xml" />
         <option value="$PROJECT_DIR$/gita-backend-web/src/main/java/com/gita/backend/GitaBackendWebApplication.java" />
         <option value="$PROJECT_DIR$/gita-backend-service/gita-backend-service-user/src/main/resources/application-dev.yml" />
@@ -226,7 +124,6 @@
         <option value="$PROJECT_DIR$/gita-backend-service/gita-backend-service-user/src/main/resources/mapper/UserMapper.xml" />
         <option value="$PROJECT_DIR$/gita-backend-service/gita-backend-service-user/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/gita-backend-service/gita-backend-service-user/src/main/java/com/gita/backend/configuration/MybatisConfiguration.java" />
-        <option value="$PROJECT_DIR$/gita-backend-service/gita-backend-service-user/src/main/java/com/gita/backend/GitaBackendServiceApplication.java" />
         <option value="$PROJECT_DIR$/gita-backend-web/src/main/java/com/gita/backend/controller/UserController.java" />
         <option value="$PROJECT_DIR$/gita-backend-common/src/main/java/com/gita/backend/exceptions/BueninessException.java" />
         <option value="$PROJECT_DIR$/gita-backend-common/src/main/java/com/gita/backend/exceptions/BusinessException.java" />
@@ -235,6 +132,16 @@
         <option value="$PROJECT_DIR$/gita-backend-api/src/main/java/com/gita/backend/dto/common/Response.java" />
         <option value="$PROJECT_DIR$/gita-backend-service/gita-backend-service-user/src/main/java/com/gita/backend/service/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/gita-backend-web/src/main/java/com/gita/backend/configuartion/GolbalException.java" />
+        <option value="$PROJECT_DIR$/gita-backend-service/pom.xml" />
+        <option value="$PROJECT_DIR$/gita-backend-service/gita-backend-service-task/pom.xml" />
+        <option value="$PROJECT_DIR$/gita-backend-service/gita-backend-service-task/src/main/java/com/gita/backend/service/gita/backend/configuration/MybatisConfiguration.java" />
+        <option value="$PROJECT_DIR$/gita-backend-service/gita-backend-service-task/src/main/java/com/gita/backend/configuration/MybatisConfiguration.java" />
+        <option value="$PROJECT_DIR$/gita-backend-service/gita-backend-service-task/src/main/java/com/gita/backend/service/UserService.java" />
+        <option value="$PROJECT_DIR$/gita-backend-service/gita-backend-service-task/src/main/resources/application-dev.yml" />
+        <option value="$PROJECT_DIR$/gita-backend-service/gita-backend-service-task/src/main/java/com/gita/backend/configuration/XxlJobConfig.java" />
+        <option value="$PROJECT_DIR$/gita-backend-service/gita-backend-service-user/src/main/java/com/gita/backend/GitaBackendServiceApplication.java" />
+        <option value="$PROJECT_DIR$/gita-backend-service/gita-backend-service-task/src/main/java/com/gita/backend/GitaBackendServiceTaskApplication.java" />
+        <option value="$PROJECT_DIR$/gita-backend-service/gita-backend-service-task/src/main/java/com/gita/backend/task/UserTask.java" />
       </list>
     </option>
   </component>
@@ -291,8 +198,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1358" />
-    <option name="y" value="-170" />
+    <option name="x" value="-1928" />
+    <option name="y" value="-141" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
@@ -322,107 +229,101 @@
             <path>
               <item name="gita-app-backend" type="b2602c69:ProjectViewProjectNode" />
               <item name="gita-app-backend" type="462c0819:PsiDirectoryNode" />
-              <item name="gita-backend-api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gita-app-backend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gita-app-backend" type="462c0819:PsiDirectoryNode" />
-              <item name="gita-backend-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gita-app-backend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gita-app-backend" type="462c0819:PsiDirectoryNode" />
-              <item name="gita-backend-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gita-app-backend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gita-app-backend" type="462c0819:PsiDirectoryNode" />
-              <item name="gita-backend-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gita-app-backend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gita-app-backend" type="462c0819:PsiDirectoryNode" />
-              <item name="gita-backend-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gita-app-backend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gita-app-backend" type="462c0819:PsiDirectoryNode" />
-              <item name="gita-backend-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gita-app-backend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gita-app-backend" type="462c0819:PsiDirectoryNode" />
-              <item name="gita-backend-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
-              <item name="UserService" type="1a9f42e2:ClassTreeNode" />
-            </path>
-            <path>
-              <item name="gita-app-backend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gita-app-backend" type="462c0819:PsiDirectoryNode" />
-              <item name="gita-backend-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
-              <item name="dto" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gita-app-backend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gita-app-backend" type="462c0819:PsiDirectoryNode" />
-              <item name="gita-backend-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
-              <item name="dto" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gita-app-backend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gita-app-backend" type="462c0819:PsiDirectoryNode" />
-              <item name="gita-backend-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
-              <item name="dto" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gita-app-backend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gita-app-backend" type="462c0819:PsiDirectoryNode" />
-              <item name="gita-backend-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
-              <item name="dto" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
-              <item name="UserEnter" type="1a9f42e2:ClassTreeNode" />
+              <item name="gita-backend-service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="gita-app-backend" type="b2602c69:ProjectViewProjectNode" />
               <item name="gita-app-backend" type="462c0819:PsiDirectoryNode" />
               <item name="gita-backend-service" type="462c0819:PsiDirectoryNode" />
+              <item name="gita-backend-service-task" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gita-app-backend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gita-app-backend" type="462c0819:PsiDirectoryNode" />
+              <item name="gita-backend-service" type="462c0819:PsiDirectoryNode" />
+              <item name="gita-backend-service-task" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gita-app-backend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gita-app-backend" type="462c0819:PsiDirectoryNode" />
+              <item name="gita-backend-service" type="462c0819:PsiDirectoryNode" />
+              <item name="gita-backend-service-task" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gita-app-backend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gita-app-backend" type="462c0819:PsiDirectoryNode" />
+              <item name="gita-backend-service" type="462c0819:PsiDirectoryNode" />
+              <item name="gita-backend-service-task" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gita-app-backend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gita-app-backend" type="462c0819:PsiDirectoryNode" />
+              <item name="gita-backend-service" type="462c0819:PsiDirectoryNode" />
+              <item name="gita-backend-service-task" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gita-app-backend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gita-app-backend" type="462c0819:PsiDirectoryNode" />
+              <item name="gita-backend-service" type="462c0819:PsiDirectoryNode" />
+              <item name="gita-backend-service-task" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+              <item name="configuration" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gita-app-backend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gita-app-backend" type="462c0819:PsiDirectoryNode" />
+              <item name="gita-backend-service" type="462c0819:PsiDirectoryNode" />
+              <item name="gita-backend-service-task" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+              <item name="task" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gita-app-backend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gita-app-backend" type="462c0819:PsiDirectoryNode" />
+              <item name="gita-backend-service" type="462c0819:PsiDirectoryNode" />
+              <item name="gita-backend-service-task" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+              <item name="task" type="462c0819:PsiDirectoryNode" />
+              <item name="UserTask" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="gita-app-backend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gita-app-backend" type="462c0819:PsiDirectoryNode" />
+              <item name="gita-backend-service" type="462c0819:PsiDirectoryNode" />
+              <item name="gita-backend-service-task" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+              <item name="GitaBackendServiceTaskApplication" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="gita-app-backend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gita-app-backend" type="462c0819:PsiDirectoryNode" />
+              <item name="gita-backend-service" type="462c0819:PsiDirectoryNode" />
+              <item name="gita-backend-service-task" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="gita-app-backend" type="b2602c69:ProjectViewProjectNode" />
@@ -484,77 +385,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="backend" type="462c0819:PsiDirectoryNode" />
-              <item name="configuration" type="462c0819:PsiDirectoryNode" />
-              <item name="MybatisConfiguration" type="1a9f42e2:ClassTreeNode" />
-            </path>
-            <path>
-              <item name="gita-app-backend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gita-app-backend" type="462c0819:PsiDirectoryNode" />
-              <item name="gita-backend-service" type="462c0819:PsiDirectoryNode" />
-              <item name="gita-backend-service-user" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gita-app-backend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gita-app-backend" type="462c0819:PsiDirectoryNode" />
-              <item name="gita-backend-service" type="462c0819:PsiDirectoryNode" />
-              <item name="gita-backend-service-user" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-              <item name="UserMapper" type="1a9f42e2:ClassTreeNode" />
-            </path>
-            <path>
-              <item name="gita-app-backend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gita-app-backend" type="462c0819:PsiDirectoryNode" />
-              <item name="gita-backend-service" type="462c0819:PsiDirectoryNode" />
-              <item name="gita-backend-service-user" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gita-app-backend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gita-app-backend" type="462c0819:PsiDirectoryNode" />
-              <item name="gita-backend-service" type="462c0819:PsiDirectoryNode" />
-              <item name="gita-backend-service-user" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-              <item name="UserModel" type="1a9f42e2:ClassTreeNode" />
-            </path>
-            <path>
-              <item name="gita-app-backend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gita-app-backend" type="462c0819:PsiDirectoryNode" />
-              <item name="gita-backend-service" type="462c0819:PsiDirectoryNode" />
-              <item name="gita-backend-service-user" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gita-app-backend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gita-app-backend" type="462c0819:PsiDirectoryNode" />
-              <item name="gita-backend-service" type="462c0819:PsiDirectoryNode" />
-              <item name="gita-backend-service-user" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="UserServiceImpl" type="1a9f42e2:ClassTreeNode" />
+              <item name="GitaBackendServiceUserApplication" type="1a9f42e2:ClassTreeNode" />
             </path>
             <path>
               <item name="gita-app-backend" type="b2602c69:ProjectViewProjectNode" />
@@ -571,9 +402,37 @@
               <item name="gita-backend-service" type="462c0819:PsiDirectoryNode" />
               <item name="gita-backend-service-user" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gita-app-backend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gita-app-backend" type="462c0819:PsiDirectoryNode" />
+              <item name="gita-backend-service" type="462c0819:PsiDirectoryNode" />
+              <item name="gita-backend-service-user" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gita-app-backend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gita-app-backend" type="462c0819:PsiDirectoryNode" />
+              <item name="gita-backend-service" type="462c0819:PsiDirectoryNode" />
+              <item name="gita-backend-service-user" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gita-app-backend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gita-app-backend" type="462c0819:PsiDirectoryNode" />
+              <item name="gita-backend-service" type="462c0819:PsiDirectoryNode" />
+              <item name="gita-backend-service-user" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+              <item name="GitaBackendServiceApplicationTests" type="1a9f42e2:ClassTreeNode" />
             </path>
             <path>
               <item name="gita-app-backend" type="b2602c69:ProjectViewProjectNode" />
@@ -628,15 +487,25 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="backend" type="462c0819:PsiDirectoryNode" />
-              <item name="configuartion" type="462c0819:PsiDirectoryNode" />
-              <item name="GolbalException" type="1a9f42e2:ClassTreeNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gita-app-backend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gita-app-backend" type="462c0819:PsiDirectoryNode" />
+              <item name="gita-backend-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="UserController" type="1a9f42e2:ClassTreeNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -653,25 +522,29 @@
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="RequestMappingsPanelOrder2" value="2" />
-    <property name="last_opened_file_path" value="D:/GIT_CODE/basic/pangu-user-center" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/gita-backend-service/gita-backend-service-task/src/main/java/com/gita/backend/service/gita/backend" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/gita-backend-common/src/main/java/com/gita/backend" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\MY_PROJECT\gita-app-backend\gita-backend-service\gita-backend-service-user\src\main\resources\mapper" />
-      <recent name="D:\MY_PROJECT\gita-app-backend\gita-backend-service\gita-backend-service-user\src\main\java\com\gita\backend\configuration" />
-      <recent name="D:\MY_PROJECT\gitabackend\gita-backend-web\src\main\resources" />
-      <recent name="D:\MY_PROJECT\gitabackend\gita-backend-service\gita-backend-service-user\src\main\resources" />
-      <recent name="D:\MY_PROJECT\gitabackend\gita-backend-web\src\main\resources\profiles" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.gita.backend.common" />
-      <recent name="com.gita.backend.configuration" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\MY_PROJECT\gitabackend\gita-backend-service\gita-backend-service-user\src\main\resources" />
       <recent name="D:\MY_PROJECT\gitabackend\gita-backend-service\gita-backend-service-user\src\main\resources\profiles" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.gita.backend" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.gita.backend" />
+      <recent name="com.gita.backend.common" />
+      <recent name="com.gita.backend.configuration" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\MY_PROJECT\gita-app-backend\gita-backend-service\gita-backend-service-task\src\main\java\com\gita\backend\service\gita\backend" />
+      <recent name="D:\MY_PROJECT\gita-app-backend\gita-backend-service\gita-backend-service-task\src\main\resources" />
+      <recent name="D:\MY_PROJECT\gita-app-backend\gita-backend-service\gita-backend-service-user\src\main\resources\mapper" />
+      <recent name="D:\MY_PROJECT\gita-app-backend\gita-backend-service\gita-backend-service-user\src\main\java\com\gita\backend\configuration" />
+      <recent name="D:\MY_PROJECT\gitabackend\gita-backend-web\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -686,17 +559,36 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.GitaBackendWebApplication">
+  <component name="RunManager" selected="Application.GitaBackendServiceTaskApplication">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
     </configuration>
-    <configuration name="GitaBackendWebApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="GitaBackendServiceTaskApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.gita.backend.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.gita.backend.GitaBackendServiceTaskApplication" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="gita-backend-service-task" />
+      <envs />
+    </configuration>
+    <configuration name="GitaBackendWebApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.gita.backend.configuration.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -759,21 +651,21 @@
       <module name="gita-backend-service-user" />
       <envs />
     </configuration>
-    <configuration name="GitaBackendServiceApplication (2)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="GitaBackendServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gita.backend.gitabackendservice.GitaBackendServiceApplication" />
+      <module name="gita-backend-service" />
+      <envs />
+    </configuration>
+    <configuration name="GitaBackendServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.gita.backend.*" />
+          <option name="PATTERN" value="com.gita.backend.configuration.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.gita.backend.GitaBackendServiceApplication" />
       <module name="gita-backend-service-user" />
-      <envs />
-    </configuration>
-    <configuration name="GitaBackendServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gita.backend.gitabackendservice.GitaBackendServiceApplication" />
-      <module name="gita-backend-service" />
       <envs />
     </configuration>
     <configuration name="GitaBackendServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
@@ -785,6 +677,12 @@
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.gita.backend.GitaBackendServiceApplication" />
       <module name="gita-backend-service-user" />
+      <envs />
+    </configuration>
+    <configuration name="GitaBackendServiceTaskApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gita.backend.service.gita.backend.service.task.GitaBackendServiceTaskApplication" />
+      <module name="gita-backend-service-task" />
       <envs />
     </configuration>
     <configuration name="GitaBackendServiceUserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
@@ -843,18 +741,21 @@
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
-    <list size="6">
+    <list size="8">
       <item index="0" class="java.lang.String" itemvalue="Spring Boot.GitaBackendWebApplication" />
       <item index="1" class="java.lang.String" itemvalue="Spring Boot.GitaBackendServiceApplication" />
       <item index="2" class="java.lang.String" itemvalue="Spring Boot.GitaBackendServiceUserApplication" />
       <item index="3" class="java.lang.String" itemvalue="Spring Boot.GitaBackendServiceApplication (1)" />
       <item index="4" class="java.lang.String" itemvalue="Spring Boot.GitaBackendServiceApplication (2)" />
       <item index="5" class="java.lang.String" itemvalue="Application.GitaBackendWebApplication" />
+      <item index="6" class="java.lang.String" itemvalue="Spring Boot.GitaBackendServiceTaskApplication" />
+      <item index="7" class="java.lang.String" itemvalue="Application.GitaBackendServiceTaskApplication" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Application.GitaBackendWebApplication" />
-        <item index="1" class="java.lang.String" itemvalue="Spring Boot.GitaBackendServiceApplication (2)" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Application.GitaBackendServiceTaskApplication" />
+        <item index="1" class="java.lang.String" itemvalue="Application.GitaBackendWebApplication" />
+        <item index="2" class="java.lang.String" itemvalue="Spring Boot.GitaBackendServiceApplication (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -916,11 +817,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55561000" />
+    <option name="totallyTimeSpent" value="59017000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1358" y="-170" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="-1928" y="-141" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -938,6 +838,36 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297062" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.66158867" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19083156" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35394457" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.59956473" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32752994" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.66158867" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -948,11 +878,6 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297062" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -974,184 +899,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.5.8/dubbo-2.5.8.jar!/com/alibaba/dubbo/config/RegistryConfig.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="11" column="41" lean-forward="false" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.5.8/dubbo-2.5.8.jar!/com/alibaba/dubbo/config/AbstractConfig.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="800">
-          <caret line="60" column="35" lean-forward="false" selection-start-line="60" selection-start-column="29" selection-end-line="60" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gita-backend-service/gita-backend-service-user/target/classes/application-dev.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="13" column="17" lean-forward="true" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gita-backend-service/gita-backend-service-user/target/classes/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$MAVEN_REPOSITORY$/com/alibaba/spring/boot/dubbo-spring-boot-starter/1.0.0/dubbo-spring-boot-starter-1.0.0.pom">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2160">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.6.2/dubbo-2.6.2.jar!/com/alibaba/dubbo/config/annotation/Service.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-246">
-          <caret line="18" column="18" lean-forward="false" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gita-backend-web/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/boot/dubbo-spring-boot-autoconfigure/0.2.0/dubbo-spring-boot-autoconfigure-0.2.0.jar!/META-INF/spring-configuration-metadata.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="103" column="28" lean-forward="true" selection-start-line="103" selection-start-column="28" selection-end-line="103" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gita-backend-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="58" column="31" lean-forward="false" selection-start-line="58" selection-start-column="31" selection-end-line="58" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gita-backend-web/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="760">
-          <caret line="38" column="47" lean-forward="false" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.6.2/dubbo-2.6.2.jar!/com/alibaba/dubbo/registry/zookeeper/ZookeeperRegistryFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.6.2/dubbo-2.6.2.jar!/com/alibaba/dubbo/registry/dubbo/DubboRegistry.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="87" column="24" lean-forward="true" selection-start-line="87" selection-start-column="24" selection-end-line="87" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.6.2/dubbo-2.6.2.jar!/com/alibaba/dubbo/registry/RegistryService.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="10" column="24" lean-forward="false" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.6.2/dubbo-2.6.2.jar!/com/alibaba/dubbo/registry/RegistryFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="12" column="34" lean-forward="true" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.6.2/dubbo-2.6.2.jar!/META-INF/dubbo.xsd">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1620">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.6.2/dubbo-2.6.2.jar!/META-INF/LICENSE">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2400">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.6.2/dubbo-2.6.2.jar!/META-INF/MANIFEST.MF">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="50" lean-forward="false" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.6.2/dubbo-2.6.2.jar!/META-INF/maven/com.alibaba/dubbo-registry-zookeeper/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="16" column="36" lean-forward="true" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.6.2/dubbo-2.6.2.jar!/META-INF/maven/com.alibaba/dubbo-registry-zookeeper/pom.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.6.2/dubbo-2.6.2.jar!/META-INF/maven/com.alibaba/dubbo-config-api/pom.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.6.2/dubbo-2.6.2.jar!/META-INF/maven/com.alibaba/dubbo-config-api/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="55" column="21" lean-forward="true" selection-start-line="55" selection-start-column="21" selection-end-line="55" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.6.2/dubbo-2.6.2.jar!/com/alibaba/dubbo/rpc/proxy/AbstractProxyFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="14" column="22" lean-forward="false" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.6.2/dubbo-2.6.2.jar!/com/alibaba/dubbo/rpc/proxy/AbstractProxyInvoker.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-173">
-          <caret line="15" column="22" lean-forward="false" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.6.2/dubbo-2.6.2.jar!/com/alibaba/dubbo/rpc/proxy/InvokerInvocationHandler.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.6.2/dubbo-2.6.2.jar!/com/alibaba/dubbo/rpc/Exporter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.6.2/dubbo-2.6.2.jar!/com/alibaba/dubbo/rpc/ExporterListener.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
@@ -1177,15 +924,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="9" column="22" lean-forward="false" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gita-backend-service/gita-backend-service-user/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="42" lean-forward="true" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1207,22 +945,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gita-backend-service/gita-backend-service-user/src/main/resources/application-dev.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="13" column="7" lean-forward="false" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gita-backend-service/gita-backend-service-user/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="13" column="32" lean-forward="false" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gita-backend-service/gita-backend-service-user/src/main/java/com/gita/backend/dao/UserMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1233,27 +955,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gita-backend-service/gita-backend-service-user/src/main/java/com/gita/backend/configuration/MybatisConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="33" column="35" lean-forward="true" selection-start-line="33" selection-start-column="35" selection-end-line="33" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gita-backend-web/src/main/java/com/gita/backend/GitaBackendWebApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="9" column="44" lean-forward="false" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/DevTools/Java/jdk1.8.0_131/src.zip!/java/lang/Exception.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="29">
           <caret line="44" column="13" lean-forward="false" selection-start-line="44" selection-start-column="13" selection-end-line="44" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1261,20 +966,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="309">
           <caret line="79" column="30" lean-forward="false" selection-start-line="79" selection-start-column="30" selection-end-line="79" selection-end-column="30" />
-          <folding>
-            <element signature="e#1175#1176#0" expanded="false" />
-            <element signature="e#1198#1199#0" expanded="false" />
-            <element signature="e#2364#2365#0" expanded="false" />
-            <element signature="e#2401#2402#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gita-backend-service/gita-backend-service-user/src/main/java/com/gita/backend/GitaBackendServiceApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="11" column="20" lean-forward="false" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1282,7 +973,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="17" column="35" lean-forward="true" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1314,7 +1004,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
           <caret line="5" column="35" lean-forward="false" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1325,14 +1014,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gita-backend-web/src/main/java/com/gita/backend/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="21" column="29" lean-forward="false" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1367,24 +1048,273 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gita-backend-service/gita-backend-service-user/src/main/java/com/gita/backend/service/UserServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/gita-backend-web/src/main/java/com/gita/backend/configuartion/GolbalException.java" />
+    <entry file="file://$PROJECT_DIR$/gita-backend-common/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        <state relative-caret-position="360">
+          <caret line="18" column="21" lean-forward="true" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gita-backend-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gita-backend-service/gita-backend-service-task/src/main/java/com/gita/backend/service/gita/backend/service/task/GitaBackendServiceTaskApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gita-backend-service/gita-backend-service-task/src/main/java/com/gita/backend/configuration/dbProperties/CRMDbProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gita-backend-service/gita-backend-service-task/src/main/java/com/gita/backend/configuration/dbProperties/XqtravelRWDbProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gita-backend-service/gita-backend-service-task/src/main/java/com/gita/backend/configuration/dbProperties/SiteMailDbProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gita-backend-service/gita-backend-service-user/src/main/java/com/gita/backend/configuration/DataSourceConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="28" column="40" lean-forward="true" selection-start-line="28" selection-start-column="40" selection-end-line="28" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gita-backend-service/gita-backend-service-user/src/main/java/com/gita/backend/configuration/MybatisConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="43" column="26" lean-forward="false" selection-start-line="43" selection-start-column="26" selection-end-line="43" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gita-backend-service/gita-backend-service-task/src/main/java/com/gita/backend/configuration/MybatisConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="44" column="38" lean-forward="true" selection-start-line="44" selection-start-column="38" selection-end-line="44" selection-end-column="38" />
           <folding>
-            <element signature="e#803#804#0" expanded="true" />
-            <element signature="e#851#852#0" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gita-backend-web/src/main/java/com/gita/backend/configuartion/GolbalException.java">
+    <entry file="file://$PROJECT_DIR$/gita-backend-service/gita-backend-service-task/src/main/java/com/gita/backend/configuration/dbProperties/XqtravelRDbProperties.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="44" column="5" lean-forward="true" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gita-backend-service/gita-backend-service-task/src/main/java/com/gita/backend/configuration/DataSourceConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="26" column="38" lean-forward="false" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gita-backend-service/gita-backend-service-task/src/main/java/com/gita/backend/configuration/dbProperties/aop/DataSourceAop.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gita-backend-service/gita-backend-service-task/src/main/resources/application-test.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gita-backend-service/gita-backend-service-user/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="37" lean-forward="true" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gita-backend-service/gita-backend-service-task/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-151">
+          <caret line="10" column="42" lean-forward="true" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gita-backend-service/gita-backend-service-user/src/main/resources/application-test.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gita-backend-service/gita-backend-service-user/src/main/resources/application-dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="19" column="16" lean-forward="true" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gita-backend-service/gita-backend-service-user/src/main/resources/application-beta.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gita-backend-service/gita-backend-service-user/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" column="31" lean-forward="false" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gita-backend-service/gita-backend-service-task/src/main/java/com/gita/backend/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="24" lean-forward="false" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gita-backend-service/gita-backend-service-user/src/main/java/com/gita/backend/service/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="14" column="23" lean-forward="false" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#803#804#0" expanded="false" />
+            <element signature="e#851#852#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gita-backend-service/gita-backend-service-user/src/test/java/com/gita/backend/GitaBackendServiceApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="16" lean-forward="false" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.16.22/lombok-1.16.22.jar!/lombok/extern/slf4j/Slf4j.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="14" column="25" lean-forward="true" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gita-backend-web/src/main/java/com/gita/backend/GitaBackendWebApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="3" lean-forward="false" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gita-backend-web/src/main/java/com/gita/backend/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="24" lean-forward="false" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gita-backend-service/gita-backend-service-task/src/main/resources/application-beta.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gita-backend-web/src/main/java/com/gita/backend/configuartion/GlobalException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gita-backend-service/gita-backend-service-user/src/main/java/com/gita/backend/GitaBackendServiceUserApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="46" lean-forward="false" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gita-backend-service/gita-backend-service-task/src/main/java/com/gita/backend/GitaBackendServiceTaskApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="13" column="5" lean-forward="false" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gita-backend-service/gita-backend-service-task/src/main/java/com/gita/backend/configuration/XxlJobConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="16" column="27" lean-forward="true" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gita-backend-service/gita-backend-service-task/src/main/java/com/gita/backend/task/UserTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="14" column="42" lean-forward="true" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gita-backend-service/gita-backend-service-task/src/main/resources/application-dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="14" column="42" lean-forward="false" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gita-backend-service/gita-backend-service-task/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" column="46" lean-forward="false" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
+          <folding />
         </state>
       </provider>
     </entry>

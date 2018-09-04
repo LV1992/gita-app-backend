@@ -6,10 +6,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @Slf4j
 @SpringBootApplication
-public class GitaBackendServiceApplication {
+public class GitaBackendServiceUserApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(GitaBackendServiceApplication.class, args);
-		log.info("GitaBackendServiceApplication start success!!!");
+		SpringApplication.run(GitaBackendServiceUserApplication.class, args);
+		log.info("GitaBackendServiceUserApplication start success!!!");
 	}
 }

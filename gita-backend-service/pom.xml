@@ -26,6 +26,7 @@
 
     <modules>
         <module>gita-backend-service-user</module>
+        <module>gita-backend-service-task</module>
     </modules>
 
     <dependencies>
@@ -59,6 +60,7 @@
             <scope>test</scope>
         </dependency>
 
+        <!--spring boot dubbo 整合-->
         <dependency>
             <groupId>com.alibaba.boot</groupId>
             <artifactId>dubbo-spring-boot-starter</artifactId>

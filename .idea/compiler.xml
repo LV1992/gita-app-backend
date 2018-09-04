@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="gita-backend-api" />
         <module name="gita-backend-common" />
+        <module name="gita-backend-service-task" />
         <module name="gita-backend-service-user" />
         <module name="gita-backend-web" />
       </profile>
@@ -16,6 +17,7 @@
       <module name="gita-backend-api" target="1.5" />
       <module name="gita-backend-common" target="1.5" />
       <module name="gita-backend-service" target="1.8" />
+      <module name="gita-backend-service-task" target="1.8" />
       <module name="gita-backend-service-user" target="1.8" />
       <module name="gita-backend-web" target="1.8" />
       <module name="gitabackend" target="1.5" />

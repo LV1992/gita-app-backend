@@ -2,8 +2,7 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/gita-backend-service" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/gita-backend-service" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/gita-backend-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gita-backend-service/gita-backend-service-task" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/gita-backend-service/gita-backend-service-user" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/gita-backend-web" charset="UTF-8" />
   </component>

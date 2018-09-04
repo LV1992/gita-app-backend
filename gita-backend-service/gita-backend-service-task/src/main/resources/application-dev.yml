@@ -1,0 +1,36 @@
+# dubbo doc http://dubbo.apache.org/zh-cn/
+dubbo:
+  application:
+    id: dubbo-provider
+    name: dubbo-provider-name
+  protocol:
+    id: dubbo
+    name: dubbo
+    port: -1
+  registry:
+    id: dubbo-provider
+    address: zookeeper://zk1.d.xqcx.com:2181?backup=zk2.d.xqcx.com:2181,zk3.d.xqcx.com:2181
+  # Base packages to scan Dubbo Components (e.g., @Service, @Reference)
+  scan:
+    basePackages: com.gita.backend.service
+xqdb:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://mysql.d.xqcx.com:3306/xqcx_db_trace?useUnicode=true&amp;characterEncoding=UTF8&amp;allowMultiQueries=true&amp;zeroDateTimeBehavior=convertToNull
+    username: xq
+    password: 123456
+    initialSize: 10
+    maxActive: 30
+    minIdle: 20
+    maxWait: 30000
+    timeBetweenEvictionRunsMillis: 10000
+    validationQuery: SELECT 'x'
+    testWhileIdle: true
+xxl:
+  job:
+    admin-address: http://jobadmin.t.xqcx.com:38080
+    app-name: ${spring.application.name}
+    ip:
+    port: 9998
+    log-path: ${log-path}/${spring.application.name}/jobhandler/
+    access-token:

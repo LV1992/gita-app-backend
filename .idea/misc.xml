@@ -6,6 +6,8 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/gita-backend-web/pom.xml" />
         <option value="$PROJECT_DIR$/gita-backend-service/gita-backend-service-user/pom.xml" />
+        <option value="$PROJECT_DIR$/gita-backend-service/pom.xml" />
+        <option value="$PROJECT_DIR$/gita-backend-service/gita-backend-service-task/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
