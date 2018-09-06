@@ -32,5 +32,5 @@ xxl:
     app-name: ${spring.application.name}
     ip:
     port: 9998
-    log-path: ${log-path}/${spring.application.name}/jobhandler/
+    log-path: /${spring.application.name}/jobhandler/
     access-token:

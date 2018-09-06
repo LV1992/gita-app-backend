@@ -9,3 +9,6 @@ dubbo:
     timeout: 3000
   consumer:
     timeout: 3000
+server:
+  servlet:
+    context-path: /gita/api

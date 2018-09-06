@@ -3,8 +3,12 @@
 <mapper namespace="com.gita.backend.dao.UserMapper">
 
 
+    <select id="selectUserByName" parameterType="com.gita.backend.dto.user.UserEnter" resultType="java.lang.Integer">
+        SELECT count(1) FROM tt_battery_user WHERE mobile = #{mobile}
+    </select>
+
     <select id="selectUser" parameterType="com.gita.backend.dto.user.UserEnter" resultType="com.gita.backend.model.UserModel">
-        SELECT * FROM tt_battery_user WHERE userName = #{name}
+        SELECT * FROM tt_battery_user WHERE mobile = #{mobile} and password = #{password} limit 1
     </select>
 
 </mapper>

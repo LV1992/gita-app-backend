@@ -16,7 +16,7 @@ dubbo:
 xqdb:
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://mysql.d.xqcx.com:3306/xqcx_db_trace?useUnicode=true&amp;characterEncoding=UTF8&amp;allowMultiQueries=true&amp;zeroDateTimeBehavior=convertToNull
+    url: jdbc:mysql://mysql.d.xqcx.com:3306/xqcxdb?useUnicode=true&amp;characterEncoding=UTF8&amp;allowMultiQueries=true&amp;zeroDateTimeBehavior=convertToNull
     username: xq
     password: 123456
     initialSize: 10

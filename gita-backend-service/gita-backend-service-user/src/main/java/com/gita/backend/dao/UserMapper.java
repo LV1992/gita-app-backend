@@ -8,5 +8,7 @@ import com.gita.backend.model.UserModel;
  */
 public interface UserMapper {
 
+    int selectUserByName(UserEnter enter);
+
     UserModel selectUser(UserEnter enter);
 }

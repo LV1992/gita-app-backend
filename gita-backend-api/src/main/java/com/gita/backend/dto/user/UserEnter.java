@@ -8,5 +8,6 @@ import lombok.Data;
  */
 @Data
 public class UserEnter extends GeneralEnter {
-    private String name;
+    private String mobile;
+    private String password;
 }

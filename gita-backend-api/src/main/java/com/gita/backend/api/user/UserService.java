@@ -1,5 +1,6 @@
 package com.gita.backend.api.user;
 
+import com.gita.backend.dto.common.Response;
 import com.gita.backend.dto.user.UserEnter;
 
 /**
@@ -8,6 +9,6 @@ import com.gita.backend.dto.user.UserEnter;
  * @Description: 用户服务
  */
 public interface UserService {
-    void login(UserEnter enter);
+    Response login(UserEnter enter);
     void logout();
 }
