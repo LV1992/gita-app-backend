@@ -9,5 +9,5 @@ import java.io.Serializable;
  */
 @Data
 public class GeneralEnter implements Serializable{
-    private String token;
+    private String sessionKey;
 }

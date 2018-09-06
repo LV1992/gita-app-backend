@@ -17,6 +17,11 @@
             <artifactId>lombok</artifactId>
             <version>1.16.14</version>
         </dependency>
+        <dependency>
+            <groupId>com.gita.backend</groupId>
+            <artifactId>gita-backend-api</artifactId>
+            <version>1.0.0</version>
+        </dependency>
     </dependencies>
 
 
