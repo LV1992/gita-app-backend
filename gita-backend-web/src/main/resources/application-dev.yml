@@ -9,3 +9,11 @@ dubbo:
   registry:
     id: dubbo-consumer
     address: zookeeper://zk1.d.xqcx.com:2181?backup=zk2.d.xqcx.com:2181,zk3.d.xqcx.com:2181
+# redis setting
+redis:
+  redisAddress: redis1.d.xqcx.com:7000,redis2.d.xqcx.com:7000,redis3.d.xqcx.com:7000
+  redisMaxTotal: 10000
+  redisMaxIdle: 200
+  redisMinIdle: 50
+  redisTimeout: 3000
+  redisMaxAttempts: 5

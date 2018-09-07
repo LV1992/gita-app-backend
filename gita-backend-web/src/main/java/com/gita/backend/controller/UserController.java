@@ -2,15 +2,21 @@ package com.gita.backend.controller;
 
 import com.alibaba.dubbo.config.annotation.Reference;
 import com.gita.backend.api.user.UserService;
+import com.gita.backend.configuartion.Receiver;
 import com.gita.backend.context.SessionContext;
 import com.gita.backend.dto.common.Response;
 import com.gita.backend.dto.entity.LoginSession;
 import com.gita.backend.dto.user.UserEnter;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.redis.core.StringRedisTemplate;
+import org.springframework.data.redis.core.ValueOperations;
 import org.springframework.web.bind.annotation.*;
+import redis.clients.jedis.JedisCluster;
 
 import javax.servlet.http.HttpSession;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.concurrent.Callable;
 import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.TimeUnit;
 
@@ -23,6 +29,12 @@ public class UserController {
 
     @Reference(registry = "dubbo-consumer")
     private UserService userService;
+
+    @Autowired
+    private Receiver receiver;
+
+    @Autowired
+    private JedisCluster jedisCluster;
 
     @RequestMapping(value = "login",method = RequestMethod.POST)
     public Response logoin(UserEnter enter){return userService.login(enter);}
@@ -41,13 +53,14 @@ public class UserController {
     @GetMapping("qrUrl/{sessionKey}")
     public Map<String, Object> setUser(@PathVariable String sessionKey) {
         LoginSession session = SessionContext.getSession();
-        if (session.getSessionKey().equals(sessionKey)) {
+        String userSessionKey = session.getSessionKey();
+        String value = jedisCluster.get(userSessionKey);
+        if (value != null) {
+            // 保存认证信息
+            jedisCluster.setex(userSessionKey, 1 ,session.getMobile());
 
-            // 赋值登录用户
-            LoginSession loginSession = session;
-
-            // 唤醒登录等待线程
-            loginSession.latch.countDown();
+            // 发布登录广播消息，使用Receiver receiveLogin 监听
+            jedisCluster.publish(Receiver.TOPIC_NAME, sessionKey);
         }
 
         Map<String, Object> result = new HashMap<>();
@@ -63,44 +76,50 @@ public class UserController {
      */
     @GetMapping("login/getResponse/{sessionKey}")
     @ResponseBody
-    public Response getResponse(@PathVariable String sessionKey) {
-        Response result = Response.ok();
-        Map<String,Object> r = new HashMap<>();
-        LoginSession session = SessionContext.getSession();
-        r.put("session",session);
-        try {
-            LoginSession loginSession = null;
-            //没有登录
-            if (!session.getSessionKey().equals(sessionKey)) {
-                loginSession = new LoginSession();
-                SessionContext.setSession(loginSession);
-            } else {
-                loginSession = session;
-            }
-            // 第一次判断
-            // 判断是否登录,如果已登录则写入session
-            if (session.getSessionKey() != null) {
-                loginSession = new LoginSession();
-                SessionContext.setSession(loginSession);
-                return result;
-            }
+    public Callable<Map<String, Object>> getResponse(@PathVariable String sessionKey) {
+        // 非阻塞
+        Callable<Map<String, Object>> callable = () -> {
 
-            if (loginSession.latch == null) {
-                //设置信号量为1，当时使用latch..countDown(); 时，信号量变为0，线程唤醒
-                loginSession.latch = new CountDownLatch(1);
-            }
+            Map<String, Object> result = new HashMap<>();
+            result.put("loginId", sessionKey);
+
             try {
-                // 线程等待
-                loginSession.latch.await(5, TimeUnit.MINUTES);
-            } catch (Exception e) {
-                e.printStackTrace();
+                String user = jedisCluster.get( sessionKey);
+                // 长时间不扫码，二维码失效。需重新获二维码
+                if (user == null) {
+                    result.put("success", false);
+                    result.put("stats", "refresh");
+                    return result;
+                }
+
+                // 已登录
+                if (!user.equals(sessionKey)) {
+                    // 登录成,认证信息写入session
+//                    session.setAttribute(WebSecurityConfig.SESSION_KEY, user);
+                    result.put("success", true);
+                    result.put("stats", "ok");
+                    return result;
+                }
+
+                // 等待二维码被扫
+                try {
+                    // 线程等待30秒
+                    receiver.getLoginLatch(sessionKey).await(30, TimeUnit.SECONDS);
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
+
+                result.put("success", false);
+                result.put("stats", "waiting");
+                return result;
+
+            } finally {
+                // 移除登录请求
+                receiver.removeLoginLatch(sessionKey);
             }
-            return result;
-        } finally {
-            // 移除登录请求
-            if (session.getSessionKey().equals(sessionKey))
-                SessionContext.clear();
-        }
+        };
+
+        return callable;
     }
 
 

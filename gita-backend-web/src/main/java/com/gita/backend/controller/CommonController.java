@@ -1,5 +1,6 @@
 package com.gita.backend.controller;
 
+import com.gita.backend.configuartion.Receiver;
 import com.gita.backend.enums.WebExceptions;
 import com.gita.backend.exceptions.BusinessException;
 import com.google.zxing.BarcodeFormat;
@@ -8,11 +9,13 @@ import com.google.zxing.MultiFormatWriter;
 import com.google.zxing.common.BitMatrix;
 import com.google.zxing.qrcode.decoder.ErrorCorrectionLevel;
 import org.apache.commons.codec.binary.Base64;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.redis.core.ValueOperations;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
+import redis.clients.jedis.JedisCluster;
 
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
@@ -31,16 +34,23 @@ import java.util.UUID;
 @RequestMapping("common")
 public class CommonController {
 
+    @Autowired
+    private Receiver receiver;
+
+    @Autowired
+    private JedisCluster jedisCluster;
+
     /**
      * 获取二维码
      *
      * @return
      */
-    @GetMapping("qrcode")
+    @GetMapping("getQrCode")
     @ResponseBody
     public Map<String, Object> getQrCode() {
         Map<String, Object> result = new HashMap<>();
-        result.put("loginId", UUID.randomUUID());
+        String sessionKey = "PC:" + UUID.randomUUID().toString();
+        result.put("sessionKey", sessionKey);
 
         // app端登录地址
         String loginUrl = "http://localhost:8081/user/qrUrl/";
@@ -52,6 +62,7 @@ public class CommonController {
             throw new BusinessException(WebExceptions.BUILDING_QR_CODE_ERROR.getCode(),WebExceptions.BUILDING_QR_CODE_ERROR.getMsg());
         }
         result.put("image", qrCode);
+        jedisCluster.setex(sessionKey, 5 ,sessionKey);
         return result;
     }
 
