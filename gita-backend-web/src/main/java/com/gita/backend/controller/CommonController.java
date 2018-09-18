@@ -10,6 +10,7 @@ import com.google.zxing.common.BitMatrix;
 import com.google.zxing.qrcode.decoder.ErrorCorrectionLevel;
 import org.apache.commons.codec.binary.Base64;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.data.redis.core.ValueOperations;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -40,6 +41,10 @@ public class CommonController {
     @Autowired
     private JedisCluster jedisCluster;
 
+
+    @Value("${server.port}")
+    private int serverPort;
+
     /**
      * 获取二维码
      *
@@ -53,7 +58,7 @@ public class CommonController {
         result.put("sessionKey", sessionKey);
 
         // app端登录地址
-        String loginUrl = "http://localhost:8081/user/qrUrl/";
+        String loginUrl = "http://localhost:"+serverPort+"/user/qrUrl/";
         result.put("loginUrl", loginUrl);
         String qrCode = "";
         try {

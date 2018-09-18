@@ -29,10 +29,11 @@
             <artifactId>gita-backend-common</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
-		<!-- session -->
+
+		<!--websocket-->
 		<dependency>
-			<groupId>org.springframework.session</groupId>
-			<artifactId>spring-session-data-redis</artifactId>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-websocket</artifactId>
 		</dependency>
     </dependencies>
 

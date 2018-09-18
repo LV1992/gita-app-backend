@@ -26,3 +26,5 @@ xqdb:
     timeBetweenEvictionRunsMillis: 10000
     validationQuery: SELECT 'x'
     testWhileIdle: true
+server:
+  port: 8008

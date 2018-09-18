@@ -12,3 +12,4 @@ dubbo:
 server:
   servlet:
     context-path: /gita/api
+  port: 8080

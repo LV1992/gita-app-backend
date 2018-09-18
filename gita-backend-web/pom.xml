@@ -45,12 +45,12 @@
 			<scope>test</scope>
 		</dependency>
 
+		<!--dubbo-spring-boot-->
 		<dependency>
 			<groupId>com.alibaba.boot</groupId>
 			<artifactId>dubbo-spring-boot-starter</artifactId>
 			<version>0.2.0</version>
 		</dependency>
-
 		<!--redis-->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
