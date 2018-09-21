@@ -1,4 +1,4 @@
-package com.gita.backend.configuration.dbProperties;
+package com.gita.backend.configuration.properties.dbProperties;
 
 import lombok.Data;
 import lombok.ToString;

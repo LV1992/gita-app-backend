@@ -1,4 +1,4 @@
-package com.gita.backend.configuration.dbProperties.aop;
+package com.gita.backend.configuration.properties.dbProperties.aop;
 
 import com.gita.backend.annotation.DataSource;
 import com.gita.backend.context.DataSourceContext;

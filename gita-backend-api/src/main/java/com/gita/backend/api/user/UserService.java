@@ -10,5 +10,5 @@ import com.gita.backend.dto.user.UserEnter;
  */
 public interface UserService {
     Response login(UserEnter enter);
-    void logout();
+    void logout(String sessionKey);
 }

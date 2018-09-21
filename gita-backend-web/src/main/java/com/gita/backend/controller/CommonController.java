@@ -11,12 +11,11 @@ import com.google.zxing.qrcode.decoder.ErrorCorrectionLevel;
 import org.apache.commons.codec.binary.Base64;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.data.redis.core.ValueOperations;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
-import redis.clients.jedis.JedisCluster;
+import redis.clients.jedis.Jedis;
 
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
@@ -39,7 +38,7 @@ public class CommonController {
     private Receiver receiver;
 
     @Autowired
-    private JedisCluster jedisCluster;
+    private Jedis jedis;
 
 
     @Value("${server.port}")
@@ -67,7 +66,7 @@ public class CommonController {
             throw new BusinessException(WebExceptions.BUILDING_QR_CODE_ERROR.getCode(),WebExceptions.BUILDING_QR_CODE_ERROR.getMsg());
         }
         result.put("image", qrCode);
-        jedisCluster.setex(sessionKey, 5 ,sessionKey);
+        jedis.setex(sessionKey, 5 ,sessionKey);
         return result;
     }
 

@@ -28,3 +28,6 @@ xqdb:
     testWhileIdle: true
 server:
   port: 8008
+redis:
+    host: 127.0.0.1
+    port: 6379

@@ -1,7 +1,7 @@
 package com.gita.backend.configuration;
 
 import com.alibaba.druid.pool.DruidDataSource;
-import com.gita.backend.configuration.dbProperties.XqtravelRWDbProperties;
+import com.gita.backend.configuration.properties.dbProperties.XqtravelRWDbProperties;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;

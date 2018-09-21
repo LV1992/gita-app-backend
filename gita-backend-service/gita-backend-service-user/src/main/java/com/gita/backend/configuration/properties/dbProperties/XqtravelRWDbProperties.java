@@ -1,4 +1,4 @@
-package com.gita.backend.configuration.dbProperties;
+package com.gita.backend.configuration.properties.dbProperties;
 
 import lombok.Data;
 import lombok.ToString;
@@ -6,16 +6,15 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;
 
 /**
- * 数据源配置信息
- *
- * @author xuziwen
- * @date 2017-11-29 16:00
+ * @Auther: yihang.lv
+ * @Date: 2018-07-26 16:00
+ * @Description: 读写库
  */
 @Data
 @ToString
 @Component
-@ConfigurationProperties(prefix = "druid.datasource")
-public class CRMDbProperties {
+@ConfigurationProperties(prefix = "xqdb.datasource")
+public class XqtravelRWDbProperties {
 
     private String driverClassName;
     private String url;

@@ -1,7 +1,7 @@
 package com.gita.backend.configuartion;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import redis.clients.jedis.JedisCluster;
+import redis.clients.jedis.Jedis;
 import redis.clients.jedis.JedisPubSub;
 
 import java.util.Map;
@@ -14,7 +14,7 @@ import java.util.concurrent.CountDownLatch;
 public class Receiver {
     public static final String TOPIC_NAME = "login";
     @Autowired
-    JedisCluster jedisCluster;
+    Jedis jedis;
     /**
      * 存储登录状态
      */
@@ -37,7 +37,7 @@ public class Receiver {
     }
 
     public void receive(String loginId){
-        jedisCluster.subscribe(new JedisPubSub(){
+        jedis.subscribe(new JedisPubSub(){
             @Override
             public void onMessage(String channel, String message) {
                 if (loginMap.containsKey(message)) {
