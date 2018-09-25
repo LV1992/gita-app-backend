@@ -31,8 +31,6 @@ public class WebSocketServer {
 //    private static CopyOnWriteArraySet<WebSocketServer> webSocketSet = new CopyOnWriteArraySet<WebSocketServer>();
 
     //与某个客户端的连接会话，需要通过它来给客户端发送数据
-    private Session session;
-    //与某个客户端的连接会话，需要通过它来给客户端发送数据
     private static CopyOnWriteArraySet<Session> sessionStorage = new CopyOnWriteArraySet<>();
 
     @Autowired
@@ -43,7 +41,6 @@ public class WebSocketServer {
      */
     @OnOpen
     public void onOpen(@PathParam("sessionKey") String sessionKey, Session session) {
-        this.session = session;
         addOnlineCount();           //在线数加1
         log.info("有新连接加入！当前在线人数为" + getOnlineCount());
         //通过sessionKey取userId
@@ -52,7 +49,10 @@ public class WebSocketServer {
         jedis.set(getSessionIdRedisKey(session.getId()), uid);
         sessionStorage.add(session);
         try {
-            sendMessage("连接成功", session);
+            MessageModel model = new MessageModel();
+            model.setMsg("连接成功");
+            model.setToUserId(Integer.parseInt(uid));
+            sendMessage(JSON.toJSONString(model), session);
         } catch (IOException e) {
             log.error("websocket IO异常");
         }
@@ -68,10 +68,10 @@ public class WebSocketServer {
      * 连接关闭调用的方法
      */
     @OnClose
-    public void onClose() {
-        sessionStorage.remove(this.session);  //从set中删除
+    public void onClose(Session session) {
+        sessionStorage.remove(session);  //从set中删除
         //解除sessionKey与sessionId绑定关系
-        jedis.del(getSessionIdRedisKey(this.session.getId()));
+        jedis.del(getSessionIdRedisKey(session.getId()));
         subOnlineCount();           //在线数减1
         log.info("有一连接关闭！当前在线人数为" + getOnlineCount());
     }
@@ -82,7 +82,7 @@ public class WebSocketServer {
      * @param message 客户端发送过来的消息
      */
     @OnMessage
-    public void onMessage(String message, Session session) {
+    public void onMessage(String message) {
 
         MessageModel model = JSON.parseObject(message, MessageModel.class);
         //单独发送
@@ -160,6 +160,6 @@ public class WebSocketServer {
     }
 
     private String getSessionIdRedisKey(String sessionId) {
-        return "SESSION_ID_REDIS_KEY_" + sessionId;
+        return "SESSION_ID_REDIS_KEY:" + sessionId;
     }
 }

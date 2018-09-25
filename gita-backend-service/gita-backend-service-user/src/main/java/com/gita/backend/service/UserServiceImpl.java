@@ -38,7 +38,11 @@ public class UserServiceImpl implements UserService{
         //存用户session
         LoginSession session = new LoginSession();
         session.setId(user.getId());
-        session.setMobile(user.getMobile());
+        String mobile = user.getMobile();
+        if(!Strings.isNullOrEmpty(mobile)){
+            mobile = mobile.substring(0,3) + "*****" + mobile.substring(mobile.length() - 3 , mobile.length());
+        }
+        session.setMobile(mobile);
         String sessionKey = "PC:" + user.getId() + UUID.randomUUID();
         session.setSessionKey(sessionKey);
         SessionContext.setSession(session);
@@ -60,7 +64,5 @@ public class UserServiceImpl implements UserService{
             //删除sessionKey
             jedis.del(sessionKey);
         }
-
-        System.out.println("logout ...");
     }
 }

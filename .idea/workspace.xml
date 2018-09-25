@@ -1,36 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="98593d49-0714-43d2-863f-c0b5ac4314e1" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/gita-backend-service/gita-backend-service-user/src/main/java/com/gita/backend/configuration/ApplicationConfig.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/gita-backend-service/gita-backend-service-user/src/main/java/com/gita/backend/configuration/MyEndpointConfigure.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/gita-backend-service/gita-backend-service-user/src/main/java/com/gita/backend/configuration/properties/RedisProperties.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/gita-backend-service/gita-backend-service-user/src/main/java/com/gita/backend/model/MessageModel.java" />
+    <list default="true" id="98593d49-0714-43d2-863f-c0b5ac4314e1" name="Default" comment="websocket完成">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/gita-backend-api/src/main/java/com/gita/backend/api/user/UserService.java" afterPath="$PROJECT_DIR$/gita-backend-api/src/main/java/com/gita/backend/api/user/UserService.java" />
-      <change beforePath="$PROJECT_DIR$/gita-backend-service/gita-backend-service-task/src/main/java/com/gita/backend/configuration/DataSourceConfig.java" afterPath="$PROJECT_DIR$/gita-backend-service/gita-backend-service-task/src/main/java/com/gita/backend/configuration/DataSourceConfig.java" />
-      <change beforePath="$PROJECT_DIR$/gita-backend-service/gita-backend-service-task/src/main/java/com/gita/backend/configuration/dbProperties/CRMDbProperties.java" afterPath="$PROJECT_DIR$/gita-backend-service/gita-backend-service-task/src/main/java/com/gita/backend/configuration/properties/dbProperties/CRMDbProperties.java" />
-      <change beforePath="$PROJECT_DIR$/gita-backend-service/gita-backend-service-task/src/main/java/com/gita/backend/configuration/dbProperties/SiteMailDbProperties.java" afterPath="$PROJECT_DIR$/gita-backend-service/gita-backend-service-task/src/main/java/com/gita/backend/configuration/properties/dbProperties/SiteMailDbProperties.java" />
-      <change beforePath="$PROJECT_DIR$/gita-backend-service/gita-backend-service-task/src/main/java/com/gita/backend/configuration/dbProperties/XqtravelRDbProperties.java" afterPath="$PROJECT_DIR$/gita-backend-service/gita-backend-service-task/src/main/java/com/gita/backend/configuration/properties/dbProperties/XqtravelRDbProperties.java" />
-      <change beforePath="$PROJECT_DIR$/gita-backend-service/gita-backend-service-task/src/main/java/com/gita/backend/configuration/dbProperties/XqtravelRWDbProperties.java" afterPath="$PROJECT_DIR$/gita-backend-service/gita-backend-service-task/src/main/java/com/gita/backend/configuration/properties/dbProperties/XqtravelRWDbProperties.java" />
-      <change beforePath="$PROJECT_DIR$/gita-backend-service/gita-backend-service-task/src/main/java/com/gita/backend/configuration/dbProperties/aop/DataSourceAop.java" afterPath="$PROJECT_DIR$/gita-backend-service/gita-backend-service-task/src/main/java/com/gita/backend/configuration/properties/dbProperties/aop/DataSourceAop.java" />
-      <change beforePath="$PROJECT_DIR$/gita-backend-service/gita-backend-service-user/src/main/java/com/gita/backend/configuration/DataSourceConfig.java" afterPath="$PROJECT_DIR$/gita-backend-service/gita-backend-service-user/src/main/java/com/gita/backend/configuration/DataSourceConfig.java" />
       <change beforePath="$PROJECT_DIR$/gita-backend-service/gita-backend-service-user/src/main/java/com/gita/backend/configuration/WebSocketServer.java" afterPath="$PROJECT_DIR$/gita-backend-service/gita-backend-service-user/src/main/java/com/gita/backend/configuration/WebSocketServer.java" />
-      <change beforePath="$PROJECT_DIR$/gita-backend-service/gita-backend-service-user/src/main/java/com/gita/backend/configuration/dbProperties/CRMDbProperties.java" afterPath="$PROJECT_DIR$/gita-backend-service/gita-backend-service-user/src/main/java/com/gita/backend/configuration/properties/dbProperties/CRMDbProperties.java" />
-      <change beforePath="$PROJECT_DIR$/gita-backend-service/gita-backend-service-user/src/main/java/com/gita/backend/configuration/dbProperties/SiteMailDbProperties.java" afterPath="$PROJECT_DIR$/gita-backend-service/gita-backend-service-user/src/main/java/com/gita/backend/configuration/properties/dbProperties/SiteMailDbProperties.java" />
-      <change beforePath="$PROJECT_DIR$/gita-backend-service/gita-backend-service-user/src/main/java/com/gita/backend/configuration/dbProperties/XqtravelRDbProperties.java" afterPath="$PROJECT_DIR$/gita-backend-service/gita-backend-service-user/src/main/java/com/gita/backend/configuration/properties/dbProperties/XqtravelRDbProperties.java" />
-      <change beforePath="$PROJECT_DIR$/gita-backend-service/gita-backend-service-user/src/main/java/com/gita/backend/configuration/dbProperties/XqtravelRWDbProperties.java" afterPath="$PROJECT_DIR$/gita-backend-service/gita-backend-service-user/src/main/java/com/gita/backend/configuration/properties/dbProperties/XqtravelRWDbProperties.java" />
-      <change beforePath="$PROJECT_DIR$/gita-backend-service/gita-backend-service-user/src/main/java/com/gita/backend/configuration/dbProperties/aop/DataSourceAop.java" afterPath="$PROJECT_DIR$/gita-backend-service/gita-backend-service-user/src/main/java/com/gita/backend/configuration/properties/dbProperties/aop/DataSourceAop.java" />
-      <change beforePath="$PROJECT_DIR$/gita-backend-service/gita-backend-service-user/src/main/java/com/gita/backend/model/UserModel.java" afterPath="$PROJECT_DIR$/gita-backend-service/gita-backend-service-user/src/main/java/com/gita/backend/model/UserModel.java" />
       <change beforePath="$PROJECT_DIR$/gita-backend-service/gita-backend-service-user/src/main/java/com/gita/backend/service/UserServiceImpl.java" afterPath="$PROJECT_DIR$/gita-backend-service/gita-backend-service-user/src/main/java/com/gita/backend/service/UserServiceImpl.java" />
-      <change beforePath="$PROJECT_DIR$/gita-backend-service/gita-backend-service-user/src/main/resources/application-dev.yml" afterPath="$PROJECT_DIR$/gita-backend-service/gita-backend-service-user/src/main/resources/application-dev.yml" />
-      <change beforePath="$PROJECT_DIR$/gita-backend-service/pom.xml" afterPath="$PROJECT_DIR$/gita-backend-service/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/gita-backend-web/src/main/java/com/gita/backend/configuartion/Receiver.java" afterPath="$PROJECT_DIR$/gita-backend-web/src/main/java/com/gita/backend/configuartion/Receiver.java" />
-      <change beforePath="$PROJECT_DIR$/gita-backend-web/src/main/java/com/gita/backend/configuartion/RedisConfig.java" afterPath="$PROJECT_DIR$/gita-backend-web/src/main/java/com/gita/backend/configuartion/RedisConfig.java" />
-      <change beforePath="$PROJECT_DIR$/gita-backend-web/src/main/java/com/gita/backend/configuartion/properties/RedisProperties.java" afterPath="$PROJECT_DIR$/gita-backend-web/src/main/java/com/gita/backend/configuartion/properties/RedisProperties.java" />
-      <change beforePath="$PROJECT_DIR$/gita-backend-web/src/main/java/com/gita/backend/controller/CommonController.java" afterPath="$PROJECT_DIR$/gita-backend-web/src/main/java/com/gita/backend/controller/CommonController.java" />
-      <change beforePath="$PROJECT_DIR$/gita-backend-web/src/main/java/com/gita/backend/controller/UserController.java" afterPath="$PROJECT_DIR$/gita-backend-web/src/main/java/com/gita/backend/controller/UserController.java" />
-      <change beforePath="$PROJECT_DIR$/gita-backend-web/src/main/resources/application-dev.yml" afterPath="$PROJECT_DIR$/gita-backend-web/src/main/resources/application-dev.yml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -51,34 +25,27 @@
     <SUITE FILE_PATH="coverage/gita_app_backend$GitaBackendServiceTaskApplication.coverage" NAME="GitaBackendServiceTaskApplication Coverage Results" MODIFIED="1537172856878" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.gita.backend.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/gita_app_backend$GitaBackendServiceUserApplication.coverage" NAME="GitaBackendServiceUserApplication Coverage Results" MODIFIED="1537864947503" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.gita.backend.configuration.*</FILTER>
+    </SUITE>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="WebSocketServer.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/gita-backend-service/gita-backend-service-user/src/main/java/com/gita/backend/configuration/WebSocketServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="92" column="0" lean-forward="false" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
+            <state relative-caret-position="-1100">
+              <caret line="71" column="0" lean-forward="false" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
               <folding>
-                <element signature="e#4607#4608#0" expanded="true" />
-                <element signature="e#4641#4642#0" expanded="true" />
-                <element signature="e#4697#4698#0" expanded="true" />
-                <element signature="e#4742#4743#0" expanded="true" />
-                <element signature="e#4798#4799#0" expanded="true" />
-                <element signature="e#4843#4844#0" expanded="true" />
-                <element signature="e#4904#4905#0" expanded="true" />
-                <element signature="e#4962#4963#0" expanded="true" />
+                <element signature="e#4660#4661#0" expanded="true" />
+                <element signature="e#4694#4695#0" expanded="true" />
+                <element signature="e#4750#4751#0" expanded="true" />
+                <element signature="e#4795#4796#0" expanded="true" />
+                <element signature="e#4851#4852#0" expanded="true" />
+                <element signature="e#4896#4897#0" expanded="true" />
+                <element signature="e#4957#4958#0" expanded="true" />
+                <element signature="e#5015#5016#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MyEndpointConfigure.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gita-backend-service/gita-backend-service-user/src/main/java/com/gita/backend/configuration/MyEndpointConfigure.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="27" column="38" lean-forward="true" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -86,8 +53,8 @@
       <file leaf-file-name="UserServiceImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gita-backend-service/gita-backend-service-user/src/main/java/com/gita/backend/service/UserServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-80">
-              <caret line="28" column="44" lean-forward="true" selection-start-line="28" selection-start-column="44" selection-end-line="28" selection-end-column="44" />
+            <state relative-caret-position="420">
+              <caret line="65" column="9" lean-forward="true" selection-start-line="65" selection-start-column="9" selection-end-line="65" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -213,8 +180,8 @@
         <option value="$PROJECT_DIR$/gita-backend-service/gita-backend-service-user/src/main/java/com/gita/backend/model/MessageModel.java" />
         <option value="$PROJECT_DIR$/gita-backend-api/src/main/java/com/gita/backend/api/user/UserService.java" />
         <option value="$PROJECT_DIR$/gita-backend-web/src/main/java/com/gita/backend/controller/UserController.java" />
-        <option value="$PROJECT_DIR$/gita-backend-service/gita-backend-service-user/src/main/java/com/gita/backend/service/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/gita-backend-service/gita-backend-service-user/src/main/java/com/gita/backend/configuration/WebSocketServer.java" />
+        <option value="$PROJECT_DIR$/gita-backend-service/gita-backend-service-user/src/main/java/com/gita/backend/service/UserServiceImpl.java" />
       </list>
     </option>
   </component>
@@ -295,76 +262,6 @@
             <path>
               <item name="gita-app-backend" type="b2602c69:ProjectViewProjectNode" />
               <item name="gita-app-backend" type="462c0819:PsiDirectoryNode" />
-              <item name="gita-backend-api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gita-app-backend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gita-app-backend" type="462c0819:PsiDirectoryNode" />
-              <item name="gita-backend-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gita-app-backend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gita-app-backend" type="462c0819:PsiDirectoryNode" />
-              <item name="gita-backend-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gita-app-backend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gita-app-backend" type="462c0819:PsiDirectoryNode" />
-              <item name="gita-backend-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gita-app-backend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gita-app-backend" type="462c0819:PsiDirectoryNode" />
-              <item name="gita-backend-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gita-app-backend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gita-app-backend" type="462c0819:PsiDirectoryNode" />
-              <item name="gita-backend-common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gita-app-backend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gita-app-backend" type="462c0819:PsiDirectoryNode" />
-              <item name="gita-backend-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gita-app-backend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gita-app-backend" type="462c0819:PsiDirectoryNode" />
-              <item name="gita-backend-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gita-app-backend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gita-app-backend" type="462c0819:PsiDirectoryNode" />
-              <item name="gita-backend-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gita-app-backend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gita-app-backend" type="462c0819:PsiDirectoryNode" />
-              <item name="gita-backend-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gita-app-backend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gita-app-backend" type="462c0819:PsiDirectoryNode" />
               <item name="gita-backend-service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -417,41 +314,6 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="backend" type="462c0819:PsiDirectoryNode" />
               <item name="configuration" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gita-app-backend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gita-app-backend" type="462c0819:PsiDirectoryNode" />
-              <item name="gita-backend-service" type="462c0819:PsiDirectoryNode" />
-              <item name="gita-backend-service-user" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gita-app-backend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gita-app-backend" type="462c0819:PsiDirectoryNode" />
-              <item name="gita-backend-service" type="462c0819:PsiDirectoryNode" />
-              <item name="gita-backend-service-user" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-              <item name="MessageModel" type="1a9f42e2:ClassTreeNode" />
-            </path>
-            <path>
-              <item name="gita-app-backend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gita-app-backend" type="462c0819:PsiDirectoryNode" />
-              <item name="gita-backend-service" type="462c0819:PsiDirectoryNode" />
-              <item name="gita-backend-service-user" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-              <item name="UserModel" type="1a9f42e2:ClassTreeNode" />
             </path>
             <path>
               <item name="gita-app-backend" type="b2602c69:ProjectViewProjectNode" />
@@ -826,8 +688,8 @@
     </list>
     <recent_temporary>
       <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Application.GitaBackendWebApplication" />
-        <item index="1" class="java.lang.String" itemvalue="Application.GitaBackendServiceUserApplication" />
+        <item index="0" class="java.lang.String" itemvalue="Application.GitaBackendServiceUserApplication" />
+        <item index="1" class="java.lang.String" itemvalue="Application.GitaBackendWebApplication" />
         <item index="2" class="java.lang.String" itemvalue="Application.GitaBackendServiceTaskApplication" />
       </list>
     </recent_temporary>
@@ -860,7 +722,7 @@
       <workItem from="1536807182208" duration="578000" />
       <workItem from="1537150829509" duration="15000" />
       <workItem from="1537171184013" duration="39423000" />
-      <workItem from="1537408303045" duration="37911000" />
+      <workItem from="1537408303045" duration="47674000" />
     </task>
     <task id="LOCAL-00001" summary="dubbo url">
       <created>1530173208947</created>
@@ -925,11 +787,18 @@
       <option name="project" value="LOCAL" />
       <updated>1537266302142</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="websocket完成">
+      <created>1537525844871</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1537525844871</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="174641000" />
+    <option name="totallyTimeSpent" value="184404000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -953,7 +822,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29270947" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29270947" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32752994" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -962,6 +831,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.66158867" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19296375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -975,7 +845,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1026,11 +895,12 @@
     <MESSAGE value="添加跨域处理" />
     <MESSAGE value="生成二维码TODO" />
     <MESSAGE value="websocket待完成" />
-    <option name="LAST_COMMIT_MESSAGE" value="websocket待完成" />
+    <MESSAGE value="websocket完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="websocket完成" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="51" />
+      <option name="time" value="61" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1049,22 +919,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/gita-backend-api/src/main/java/com/gita/backend/dto/entity/LoginSession.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="11" column="39" lean-forward="true" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gita-backend-api/src/main/java/com/gita/backend/dto/common/Response.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="29" column="19" lean-forward="false" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.9.0/jedis-2.9.0.jar!/redis/clients/jedis/JedisCommands.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-180">
@@ -1422,10 +1276,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
           <caret line="26" column="54" lean-forward="true" selection-start-line="26" selection-start-column="54" selection-end-line="26" selection-end-column="54" />
-          <folding>
-            <element signature="e#677#678#0" expanded="true" />
-            <element signature="e#738#739#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1434,8 +1285,8 @@
         <state relative-caret-position="400">
           <caret line="27" column="43" lean-forward="true" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#779#780#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#779#780#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1456,30 +1307,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gita-backend-service/gita-backend-service-user/src/main/java/com/gita/backend/model/MessageModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="25" lean-forward="true" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gita-backend-service/gita-backend-service-user/src/main/java/com/gita/backend/service/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-80">
-          <caret line="28" column="44" lean-forward="true" selection-start-line="28" selection-start-column="44" selection-end-line="28" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gita-backend-service/gita-backend-service-user/src/main/java/com/gita/backend/configuration/MyEndpointConfigure.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="27" column="38" lean-forward="true" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-websocket/8.5.31/tomcat-embed-websocket-8.5.31.jar!/org/apache/tomcat/websocket/pojo/PojoMessageHandlerWholeBase.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
@@ -1488,19 +1315,59 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/gita-backend-api/src/main/java/com/gita/backend/exceptions/BusinessException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="87" column="0" lean-forward="true" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gita-backend-service/gita-backend-service-user/src/main/java/com/gita/backend/model/MessageModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-websocket/8.5.31/tomcat-embed-websocket-8.5.31.jar!/javax/websocket/OnClose.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="14" column="27" lean-forward="true" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gita-backend-service/gita-backend-service-user/src/main/java/com/gita/backend/service/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="65" column="9" lean-forward="true" selection-start-line="65" selection-start-column="9" selection-end-line="65" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gita-backend-service/gita-backend-service-user/src/main/java/com/gita/backend/configuration/MyEndpointConfigure.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/gita-backend-service/gita-backend-service-user/src/main/java/com/gita/backend/configuration/WebSocketServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="92" column="0" lean-forward="false" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
+        <state relative-caret-position="-1100">
+          <caret line="71" column="0" lean-forward="false" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
           <folding>
-            <element signature="e#4607#4608#0" expanded="true" />
-            <element signature="e#4641#4642#0" expanded="true" />
-            <element signature="e#4697#4698#0" expanded="true" />
-            <element signature="e#4742#4743#0" expanded="true" />
-            <element signature="e#4798#4799#0" expanded="true" />
-            <element signature="e#4843#4844#0" expanded="true" />
-            <element signature="e#4904#4905#0" expanded="true" />
-            <element signature="e#4962#4963#0" expanded="true" />
+            <element signature="e#4660#4661#0" expanded="true" />
+            <element signature="e#4694#4695#0" expanded="true" />
+            <element signature="e#4750#4751#0" expanded="true" />
+            <element signature="e#4795#4796#0" expanded="true" />
+            <element signature="e#4851#4852#0" expanded="true" />
+            <element signature="e#4896#4897#0" expanded="true" />
+            <element signature="e#4957#4958#0" expanded="true" />
+            <element signature="e#5015#5016#0" expanded="true" />
           </folding>
         </state>
       </provider>
