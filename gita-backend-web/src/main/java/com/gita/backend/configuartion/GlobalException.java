@@ -28,7 +28,7 @@ public class GlobalException {
      */
     @ResponseStatus(HttpStatus.OK)
     @ExceptionHandler({ Exception.class })
-    public Response handleArrayIndexOutOfBoundsException(Exception e) {
+    public Response handleException(Exception e) {
         e.printStackTrace();
         return Response.error();
     }
@@ -40,7 +40,7 @@ public class GlobalException {
      */
     @ResponseStatus(HttpStatus.OK)
     @ExceptionHandler(BusinessException.class)
-    Response handleBusinessException(BusinessException e){
+    public Response handleBusinessException(BusinessException e){
         return Response.error(Integer.valueOf(e.getErrorCode()),e.getErrorMessage());
     }
 
